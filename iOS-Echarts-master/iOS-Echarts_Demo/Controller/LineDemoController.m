@@ -235,36 +235,53 @@ typedef NS_ENUM(NSInteger, LineDemoTypeBtnTag) {
 }
 
 - (void)showIrregularLine2Demo {
+    NSDateFormatter *dateformatter = [[NSDateFormatter alloc] init];
+    [dateformatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSDate * dateTime = [dateformatter dateFromString:@"2016-02-05 10:53:02"];
+    //    NSLog(@"start====%@",[ZLF_Util getTime:message.startTime]);
+    //    NSLog(@"end====%@",[ZLF_Util getTime:message.endTime]);
+    NSMutableArray * dateArr = [NSMutableArray array];
+    for (int i = 0; i < 13; i ++) {
+        
+        NSDate *newDate = [dateTime dateByAddingTimeInterval:-60*2*i];
+        NSString * timeString = [dateformatter stringFromDate:newDate];
+        NSArray * arr = [NSArray arrayWithObjects:timeString,[NSNumber numberWithInt:rand()%100 -40], nil];
+        [dateArr addObject:arr];
+    }
+    NSData * jsonArr = [NSJSONSerialization dataWithJSONObject:dateArr options:NSJSONWritingPrettyPrinted error:nil];
+    NSString * jsonString = [[NSString alloc]initWithData:jsonArr encoding:NSUTF8StringEncoding];
+    
     PYOption *option = [[PYOption alloc] init];
     option.title = [[PYTitle alloc] init];
-    option.title.text = @"时间坐标折线图";
-    option.title.subtext = @"dataZoom支持";
+//    option.title.text = @"时间坐标折线图";
+//    option.title.subtext = @"dataZoom支持";
     PYGrid *grid = [[PYGrid alloc] init];
     grid.x = @(40);
-    grid.x2 = @(50);
+    grid.x2 = @(30);
     option.grid = grid;
-    option.tooltip = [[PYTooltip alloc] init];
-    option.tooltip.trigger = @"item";
-    option.tooltip.formatter = @"(function(params){var date = new Date(params.value[0]);data = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes(); return data + '<br/>' + params.value[1] + ',' + params.value[2]})";
-    option.toolbox = [[PYToolbox alloc] init];
-    option.toolbox.show = YES;
-    option.toolbox.feature = [[PYToolboxFeature alloc] init];
-    option.toolbox.feature.mark = [[PYToolboxFeatureMark alloc] init];
-    option.toolbox.feature.mark.show = YES;
-    option.toolbox.feature.dataView = [[PYToolboxFeatureDataView alloc] init];
-    option.toolbox.feature.dataView.show = YES;
-    option.toolbox.feature.dataView.readOnly = NO;
-    option.toolbox.feature.restore = [[PYToolboxFeatureRestore alloc] init];
-    option.toolbox.feature.restore.show = YES;
-    option.toolbox.feature.saveAsImage = [[PYToolboxFeatureSaveAsImage alloc] init];
-    option.toolbox.feature.saveAsImage.show = YES;
-    option.dataZoom = [[PYDataZoom alloc] init];
-    option.dataZoom.show = YES;
-    option.dataZoom.start = @(70);
+//    option.tooltip = [[PYTooltip alloc] init];
+//    option.tooltip.trigger = @"item";
+//    option.tooltip.formatter = @"(function(params){var date = new Date(params.value[0]);data = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes(); return data + '<br/>' + params.value[1] + ',' + params.value[2]})";
+//    option.toolbox = [[PYToolbox alloc] init];
+//    option.toolbox.show = YES;
+//    option.toolbox.feature = [[PYToolboxFeature alloc] init];
+//    option.toolbox.feature.mark = [[PYToolboxFeatureMark alloc] init];
+//    option.toolbox.feature.mark.show = YES;
+//    option.toolbox.feature.dataView = [[PYToolboxFeatureDataView alloc] init];
+//    option.toolbox.feature.dataView.show = YES;
+//    option.toolbox.feature.dataView.readOnly = NO;
+//    option.toolbox.feature.restore = [[PYToolboxFeatureRestore alloc] init];
+//    option.toolbox.feature.restore.show = YES;
+//    option.toolbox.feature.saveAsImage = [[PYToolboxFeatureSaveAsImage alloc] init];
+//    option.toolbox.feature.saveAsImage.show = YES;
+//    option.dataZoom = [[PYDataZoom alloc] init];
+//    option.dataZoom.show = YES;
+//    option.dataZoom.start = @(70);
     option.legend = [[PYLegend alloc] init];
     option.legend.data = @[@"series1"];
-    option.grid = [[PYGrid alloc] init];
-    option.grid.y2 = @(80);
+    option.legend.y = @40;
+//    option.grid = [[PYGrid alloc] init];
+//    option.grid.y2 = @(30);
     PYAxis *xAxis = [[PYAxis alloc] init];
     xAxis.type = PYAxisTypeTime;
     xAxis.splitNumber = @(5);
@@ -275,18 +292,18 @@ typedef NS_ENUM(NSInteger, LineDemoTypeBtnTag) {
     PYCartesianSeries *series = [[PYCartesianSeries alloc] init];
     series.name = @"series1";
     series.type = PYSeriesTypeLine;
-    series.showAllSymbol = YES;
-    series.symbolSize = @"(function(value) {return Math.round(value[2]/100) + 2;})";
-    series.data = @"(function () {var d = [];var len = 0;var now = new Date();var value;while (len++ < 200) {d.push([new Date(2014, 9, 1, 0, len * 10000),(Math.random()*30).toFixed(2) - 0,(Math.random()*100).toFixed(2) - 0]);}return d;})()";
+//    series.showAllSymbol = YES;
+//    series.symbolSize = @"(function(value) {return Math.round(value[2]/100) + 2;})";
+    series.data = @"(function () {var d = [];var len = 0;var now = new Date();var value;while (len++ < 30) {d.push([new Date(2014, 9, 1, 0, len * 1000),(Math.random()*30).toFixed(2) - 0]);}return d;})()";
     option.series = [[NSMutableArray alloc] initWithObjects:series, nil];
     [_kEchartView setOption:option];
 }
 
 - (void)showIrregularLineDemo {
     PYOption *option = [[PYOption alloc] init];
-    option.title = [[PYTitle alloc] init];
-    option.title.text = @"双数值轴折线";
-    option.title.subtext = @"纯属虚构";
+//    option.title = [[PYTitle alloc] init];
+//    option.title.text = @"双数值轴折线";
+//    option.title.subtext = @"纯属虚构";
     PYGrid *grid = [[PYGrid alloc] init];
     grid.x = @(40);
     grid.x2 = @(50);
@@ -300,8 +317,8 @@ typedef NS_ENUM(NSInteger, LineDemoTypeBtnTag) {
     option.tooltip.axisPointer.lineStyle.type = @"dashed";
     option.tooltip.axisPointer.lineStyle.width = @(1);
     option.tooltip.formatter = @"(function(params){return params.seriesName + ':[' + params.value[0] + ',' + params.value[1] + ']'})";
-    option.legend = [[PYLegend alloc] init];
-    option.legend.data = @[@"数据1",@"数据2"];
+//    option.legend = [[PYLegend alloc] init];
+//    option.legend.data = @[@"数据1",@"数据2"];
     option.toolbox = [[PYToolbox alloc] init];
     option.toolbox.show = YES;
     option.toolbox.feature = [[PYToolboxFeature alloc] init];
@@ -656,6 +673,27 @@ typedef NS_ENUM(NSInteger, LineDemoTypeBtnTag) {
  *  标准折线图
  */
 - (void)showStandardLineDemo {
+    
+    NSDateFormatter *dateformatter = [[NSDateFormatter alloc] init];
+    [dateformatter setDateFormat:@"HH:mm:ss"];
+    NSDate * dateTime = [dateformatter dateFromString:@"10:53:02"];
+    //    NSLog(@"start====%@",[ZLF_Util getTime:message.startTime]);
+    //    NSLog(@"end====%@",[ZLF_Util getTime:message.endTime]);
+    NSMutableArray * valueArr = [NSMutableArray array];
+    NSMutableArray * timeArr = [NSMutableArray array];
+    for (int i = 0; i < 13; i ++) {
+        
+        NSDate *newDate = [dateTime dateByAddingTimeInterval:-60*2*i];
+        NSString * timeString = [dateformatter stringFromDate:newDate];
+        [valueArr addObject:timeString];
+        [timeArr addObject:[NSNumber numberWithInt:rand()%100 -40]];
+    }
+    NSData * jsonValue = [NSJSONSerialization dataWithJSONObject:valueArr options:NSJSONWritingPrettyPrinted error:nil];
+    NSString * valueString = [[NSString alloc]initWithData:jsonValue encoding:NSUTF8StringEncoding];
+    
+    NSData * jsonTime = [NSJSONSerialization dataWithJSONObject:timeArr options:NSJSONWritingPrettyPrinted error:nil];
+    NSString * timeString = [[NSString alloc]initWithData:jsonTime encoding:NSUTF8StringEncoding];
+    
     PYOption *option = [[PYOption alloc] init];
     PYTitle *title = [[PYTitle alloc] init];
     title.text = @"未来一周气温变化";
@@ -688,7 +726,7 @@ typedef NS_ENUM(NSInteger, LineDemoTypeBtnTag) {
     PYAxis *xAxis = [[PYAxis  alloc] init];
     xAxis.type = @"category";
     xAxis.boundaryGap = @(NO);
-    xAxis.data = @[@"周一",@"周二",@"周三",@"周四",@"周五",@"周六",@"周日"];
+    xAxis.data = timeArr;//@[@"周一",@"周二",@"周三",@"周四",@"周五",@"周六",@"周日"];
     option.xAxis = [[NSMutableArray alloc] initWithObjects:xAxis, nil];
     PYAxis *yAxis = [[PYAxis alloc] init];
     yAxis.type = @"value";
@@ -697,7 +735,7 @@ typedef NS_ENUM(NSInteger, LineDemoTypeBtnTag) {
     PYSeries *series1 = [[PYSeries alloc] init];
     series1.name = @"最高温度";
     series1.type = PYSeriesTypeLine;
-    series1.data = @[@(11),@(11),@(15),@(13),@(12),@(13),@(10)];
+    series1.data = valueArr;//@[@(11),@(11),@(15),@(13),@(12),@(13),@(10)];
     PYMarkPoint *markPoint = [[PYMarkPoint alloc] init];
     markPoint.data = @[@{@"type" : @"max", @"name": @"最大值"},@{@"type" : @"min", @"name": @"最小值"}];
     series1.markPoint = markPoint;
