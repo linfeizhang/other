@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F1F15B84-6620-4046-8D91-529CC20CD7C2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SimpleLineChart</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1CA8AD815677B6FB0DD135F65EC4576AE68426CF</key>
+		<string>https://github.com/Boris-Em/BEMSimpleLineGraph.git</string>
+		<key>3A216D26EB93D9EB79DE1E013DBEF75CF4509620</key>
+		<string>https://github.dowjones.net/DJMobile/ios-thesituation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sample Project/SimpleLineChart.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1CA8AD815677B6FB0DD135F65EC4576AE68426CF</key>
+		<string>../../..</string>
+		<key>3A216D26EB93D9EB79DE1E013DBEF75CF4509620</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Boris-Em/BEMSimpleLineGraph.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1CA8AD815677B6FB0DD135F65EC4576AE68426CF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3A216D26EB93D9EB79DE1E013DBEF75CF4509620</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1CA8AD815677B6FB0DD135F65EC4576AE68426CF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BEMSimpleLineGraph</string>
+		</dict>
+	</array>
+</dict>
+</plist>

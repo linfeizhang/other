@@ -8,7 +8,7 @@
 
 #import "LineDemoController.h"
 #import "PYColor.h"
-
+#import "PYOption.h"
 typedef NS_ENUM(NSInteger, LineDemoTypeBtnTag) {
     LineDemoTypeBtnTagStandardLine = 10000,
     LineDemoTypeBtnTagStackedLine = 10001,

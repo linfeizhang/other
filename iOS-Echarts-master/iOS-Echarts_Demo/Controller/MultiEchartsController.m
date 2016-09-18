@@ -32,25 +32,32 @@ static NSString *const tableViewIdentifier = @"EchartsViewCell";
 #pragma mark UITableViewDataSource
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     EchartsViewCell *cell = [tableView dequeueReusableCellWithIdentifier:tableViewIdentifier forIndexPath:indexPath];
-    PYOption *option;
-    if (indexPath.row == 0) {
-        option = [self obtainWormholeOption];
-    } else {
-        option = [self obtainStandardLineOption];
+    NSMutableArray * arr = [NSMutableArray array];
+    for (int i = 0; i<11; i++) {
+        NSNumber * num = [NSNumber numberWithInt:rand()%30+3];
+        [arr addObject:num];
     }
+    PYOption *option = [self obtainStandardLineOption:arr];
     [cell.echartView setOption:option];
     [cell.echartView loadEcharts];
     return cell;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 2;
+    return 9;
 }
 
 /**
  *  标准折线图
  */
-- (PYOption *)obtainStandardLineOption {
+- (PYOption *)obtainStandardLineOption:(NSArray * )arr {
+//    NSMutableArray * arr = [NSMutableArray array];
+//    for (int i = 0; i<11; i++) {
+//        NSNumber * num = [NSNumber numberWithInt:rand()%30+3];
+//        NSLog(@"%@",num);
+//        [arr addObject:num];
+//    }
+//    NSLog(@"%@",arr);
     PYOption *option = [[PYOption alloc] init];
     PYTitle *title = [[PYTitle alloc] init];
     title.text = @"未来一周气温变化";
@@ -92,7 +99,7 @@ static NSString *const tableViewIdentifier = @"EchartsViewCell";
     PYSeries *series1 = [[PYSeries alloc] init];
     series1.name = @"最高温度";
     series1.type = @"line";
-    series1.data = @[@(11),@(11),@(15),@(13),@(12),@(13),@(10)];
+    series1.data = arr;//@[@33,@4,@11,@13,@22,@3,@15];
     PYMarkPoint *markPoint = [[PYMarkPoint alloc] init];
     markPoint.data = @[@{@"type" : @"max", @"name": @"最大值"},@{@"type" : @"min", @"name": @"最小值"}];
     series1.markPoint = markPoint;
