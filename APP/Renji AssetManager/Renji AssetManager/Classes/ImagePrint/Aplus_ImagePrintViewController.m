@@ -46,7 +46,7 @@ UITextFieldDelegate
     [userDefaults removeObjectForKey:kSelectedPDFFilePath];
     [userDefaults synchronize];
     
-    [defaults setObject:@"test.prn"                                         forKey:kExportPrintFileNameKey];
+    [defaults setObject:@""                                                 forKey:kExportPrintFileNameKey];
     [defaults setObject:@"1"                                                forKey:kPrintNumberOfPaperKey];
     [defaults setObject:[self defaultPaperSize]                             forKey:kPrintPaperSizeKey];
     [defaults setObject:[NSString stringWithFormat:@"%d", Landscape]        forKey:kPrintOrientationKey];
@@ -271,10 +271,13 @@ UITextFieldDelegate
                 
                 NSData *data = UIImagePNGRepresentation(_imageView.image);
                 isSuccess = [ptp sendData:data];
+//                isSuccess = [ptp printImage:[_imageView.image CGImage] copy:1];
             }
             [self showAlertSendDataResult:isSuccess];
         }
+        
         [ptp endCommunication];
+        
     }
     
     [sender setEnabled:YES];

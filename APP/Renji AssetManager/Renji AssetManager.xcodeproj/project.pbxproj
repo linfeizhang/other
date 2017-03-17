@@ -1004,6 +1004,7 @@
 				TargetAttributes = {
 					63C5DB731E6E900300E734E1 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = MV4S827CKM;
 					};
 					63C5DB8F1E6E900600E734E1 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -1294,6 +1295,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: chuanjun han (6SQ8SZ6485)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chuanjun han (6SQ8SZ6485)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/libs",
@@ -1309,6 +1312,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gehc.aplus.app.renji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "334ecdb7-b0fb-4c8b-a1e5-74586f81e0e2";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1317,6 +1321,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: chuanjun han (6SQ8SZ6485)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chuanjun han (6SQ8SZ6485)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/libs",
@@ -1332,6 +1338,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gehc.aplus.app.renji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "334ecdb7-b0fb-4c8b-a1e5-74586f81e0e2";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
