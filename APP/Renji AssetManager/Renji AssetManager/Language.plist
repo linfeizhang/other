@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ok</key>
+	<string>确定</string>
+	<key>cancel</key>
+	<string>取消</string>
+	<key>month</key>
+	<array>
+		<string>Jan</string>
+		<string>Feb</string>
+		<string>Mar</string>
+		<string>Apr</string>
+		<string>May</string>
+		<string>June</string>
+		<string>Jul</string>
+		<string>Aug</string>
+		<string>Sep</string>
+		<string>Oct</string>
+		<string>Nov</string>
+		<string>Dec</string>
+	</array>
+	<key>faultType</key>
+	<array>
+		<string>普通故障</string>
+		<string>停机故障</string>
+	</array>
+	<key>orderType</key>
+	<array>
+		<string>全部</string>
+		<string>停机故障</string>
+		<string>普通故障</string>
+		<string>预防性维护</string>
+		<string>工作</string>
+		<string>清单</string>
+		<string>任务</string>
+	</array>
+	<key>orderStatus</key>
+	<array>
+		<string>全部</string>
+		<string>创建</string>
+		<string>进程中</string>
+		<string>已完成</string>
+		<string>已关闭</string>
+	</array>
+</dict>
+</plist>

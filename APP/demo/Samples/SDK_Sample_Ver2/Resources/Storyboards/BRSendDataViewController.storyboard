@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Send Data View Controller-->
+        <scene sceneID="pNl-vA-Bav">
+            <objects>
+                <viewController storyboardIdentifier="sendDataViewController" id="v4q-5d-YGu" customClass="BRSendDataViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Ae-ZD-xfn"/>
+                        <viewControllerLayoutGuide type="bottom" id="eYV-5U-tVa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zjn-zo-sZl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sample_Test.prn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeb-mv-MAO">
+                                <rect key="frame" x="200" y="289" width="200" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="CAt-Nd-L3V"/>
+                                    <constraint firstAttribute="width" constant="200" id="ZzD-km-GfR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nVs-gs-rMz">
+                                <rect key="frame" x="0.0" y="530" width="600" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jN1-3G-3h0">
+                                        <rect key="frame" x="8" y="8" width="584" height="54"/>
+                                        <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Send Data">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sendDataButton:" destination="v4q-5d-YGu" eventType="touchUpInside" id="Ili-kP-fJ2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="jN1-3G-3h0" firstAttribute="leading" secondItem="nVs-gs-rMz" secondAttribute="leading" constant="8" id="EX0-2A-Tk1"/>
+                                    <constraint firstItem="jN1-3G-3h0" firstAttribute="top" secondItem="nVs-gs-rMz" secondAttribute="top" constant="8" id="GKi-V3-ZZ7"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="600" id="PK1-KB-jbI"/>
+                                    <constraint firstAttribute="bottom" secondItem="jN1-3G-3h0" secondAttribute="bottom" constant="8" id="bKf-cI-w8N"/>
+                                    <constraint firstAttribute="height" constant="70" id="n8V-x6-Ijh"/>
+                                    <constraint firstAttribute="trailing" secondItem="jN1-3G-3h0" secondAttribute="trailing" constant="8" id="ptP-9O-Rrt"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fl7-Ye-osx">
+                                <rect key="frame" x="250" y="251" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="C1L-H4-SA4"/>
+                                    <constraint firstAttribute="height" constant="30" id="Wax-5G-jZ5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Select">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendDataSelectButton:" destination="v4q-5d-YGu" eventType="touchUpInside" id="X4p-y3-y9b"/>
+                                    <segue destination="SwR-yF-aZ4" kind="push" id="fIg-T5-BYg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nVs-gs-rMz" firstAttribute="top" relation="lessThanOrEqual" secondItem="eeb-mv-MAO" secondAttribute="bottom" constant="221" id="3MA-de-kKN"/>
+                            <constraint firstItem="eYV-5U-tVa" firstAttribute="top" secondItem="nVs-gs-rMz" secondAttribute="bottom" id="8Yo-ZX-zcq"/>
+                            <constraint firstItem="nVs-gs-rMz" firstAttribute="leading" secondItem="Zjn-zo-sZl" secondAttribute="leading" id="Kdq-U6-kAZ"/>
+                            <constraint firstAttribute="trailing" secondItem="nVs-gs-rMz" secondAttribute="trailing" id="RqQ-Oc-1bV"/>
+                            <constraint firstAttribute="centerX" secondItem="nVs-gs-rMz" secondAttribute="centerX" id="VV7-OC-e6g"/>
+                            <constraint firstAttribute="centerX" secondItem="eeb-mv-MAO" secondAttribute="centerX" id="pBJ-8E-KNq"/>
+                            <constraint firstAttribute="centerX" secondItem="Fl7-Ye-osx" secondAttribute="centerX" id="rwP-EU-6AV"/>
+                            <constraint firstItem="eeb-mv-MAO" firstAttribute="top" secondItem="Fl7-Ye-osx" secondAttribute="bottom" constant="8" id="uJh-x7-6IR"/>
+                            <constraint firstItem="Fl7-Ye-osx" firstAttribute="top" relation="lessThanOrEqual" secondItem="1Ae-ZD-xfn" secondAttribute="bottom" constant="231" id="wa6-9Y-DTv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="selectedSendData" destination="eeb-mv-MAO" id="MFa-zy-b0U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JAf-9d-CrZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="386" y="278"/>
+        </scene>
+        <!--Send Data Table View Controller-->
+        <scene sceneID="yoa-y7-XTG">
+            <objects>
+                <tableViewController id="SwR-yF-aZ4" customClass="BRSendDataTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Le4-jG-eUq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="sendDataCell" id="duc-av-6vs">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="duc-av-6vs" id="jw2-B6-n3n">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SwR-yF-aZ4" id="D2f-UC-6YQ"/>
+                            <outlet property="delegate" destination="SwR-yF-aZ4" id="Ud8-1B-uPd"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="2WR-Ql-TRI"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y06-gt-ctS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1160" y="278"/>
+        </scene>
+    </scenes>
+</document>

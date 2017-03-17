@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Utility View Controller-->
+        <scene sceneID="nIX-4H-U1X">
+            <objects>
+                <viewController storyboardIdentifier="utilityViewController" id="6QD-ie-5tf" customClass="BRUtilityViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HzD-HN-xff"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Rv-8w-Rlv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fhh-tS-R2r">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nba-sd-VzS">
+                                <rect key="frame" x="150" y="60" width="300" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auto Connect Bluetooth" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkY-9s-bo5">
+                                        <rect key="frame" x="38" y="4" width="225" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8nX-y9-b6F">
+                                        <rect key="frame" x="99" y="33" width="51" height="31"/>
+                                    </switch>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vy-xo-c11">
+                                        <rect key="frame" x="156" y="33" width="46" height="30"/>
+                                        <state key="normal" title="SET">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="settingForAutoConnectBluetoothButton:" destination="6QD-ie-5tf" eventType="touchUpInside" id="cZI-hA-MF5"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLK-sm-MFI">
+                                        <rect key="frame" x="102" y="72" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCc-Jf-2Gs">
+                                        <rect key="frame" x="156" y="66" width="46" height="30"/>
+                                        <state key="normal" title="GET">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getAutoConnectBluetooth:" destination="6QD-ie-5tf" eventType="touchUpInside" id="ZIc-be-OJE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="1Vy-xo-c11" firstAttribute="trailing" secondItem="UCc-Jf-2Gs" secondAttribute="trailing" id="4ko-If-hal"/>
+                                    <constraint firstAttribute="width" constant="300" id="6AV-cx-nie"/>
+                                    <constraint firstItem="8nX-y9-b6F" firstAttribute="leading" secondItem="Nba-sd-VzS" secondAttribute="leading" constant="99" id="7Mc-2N-OR4"/>
+                                    <constraint firstItem="fkY-9s-bo5" firstAttribute="top" secondItem="Nba-sd-VzS" secondAttribute="top" constant="4" id="EoV-hR-s5z"/>
+                                    <constraint firstItem="fkY-9s-bo5" firstAttribute="centerX" secondItem="Nba-sd-VzS" secondAttribute="centerX" id="TIU-5U-O8x"/>
+                                    <constraint firstAttribute="height" constant="100" id="Xkf-Y6-dzh"/>
+                                    <constraint firstItem="1Vy-xo-c11" firstAttribute="leading" secondItem="UCc-Jf-2Gs" secondAttribute="leading" id="ZnY-Gd-rmu"/>
+                                    <constraint firstItem="fkY-9s-bo5" firstAttribute="leading" secondItem="Nba-sd-VzS" secondAttribute="leading" constant="38" id="b8z-u2-Voq"/>
+                                    <constraint firstItem="UCc-Jf-2Gs" firstAttribute="top" secondItem="1Vy-xo-c11" secondAttribute="bottom" constant="3" id="bv8-BH-i5j"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Vy-xo-c11" secondAttribute="trailing" constant="98" id="cEf-Is-yU7"/>
+                                    <constraint firstItem="1Vy-xo-c11" firstAttribute="top" secondItem="8nX-y9-b6F" secondAttribute="top" id="m1z-00-wF4"/>
+                                    <constraint firstItem="8nX-y9-b6F" firstAttribute="top" secondItem="fkY-9s-bo5" secondAttribute="bottom" constant="8" symbolic="YES" id="m9I-Ci-G7o"/>
+                                    <constraint firstItem="SLK-sm-MFI" firstAttribute="centerX" secondItem="8nX-y9-b6F" secondAttribute="centerX" id="qYL-wx-78I"/>
+                                    <constraint firstItem="1Vy-xo-c11" firstAttribute="leading" secondItem="8nX-y9-b6F" secondAttribute="trailing" constant="8" symbolic="YES" id="vgj-vg-sMh"/>
+                                    <constraint firstItem="SLK-sm-MFI" firstAttribute="top" secondItem="8nX-y9-b6F" secondAttribute="bottom" constant="8" symbolic="YES" id="wMm-Fp-TWr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Nba-sd-VzS" firstAttribute="top" secondItem="HzD-HN-xff" secondAttribute="bottom" constant="40" id="MVe-VV-gZR"/>
+                            <constraint firstAttribute="centerX" secondItem="Nba-sd-VzS" secondAttribute="centerX" id="e4y-10-UBo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="autoConnectBluetoothStatusLabel" destination="SLK-sm-MFI" id="reQ-Tn-ZvD"/>
+                        <outlet property="autoConnectBluetoothSwitch" destination="8nX-y9-b6F" id="j9O-1g-AHH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t5I-kK-S2M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="416" y="393"/>
+        </scene>
+    </scenes>
+</document>

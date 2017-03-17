@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>serverIP</key>
+	<string>http://120.76.189.52:10080/</string>
+	<key>client_id</key>
+	<string>72d111042e6b8f15c4c2d8a449d4c3e0</string>
+	<key>client_secret</key>
+	<string>f914d756420209bf6dcffcc0eefd013c</string>
+	<key>grant_type</key>
+	<string>password</string>
+	<key>oauth.accessToken</key>
+	<string>oauth/accessToken</string>
+	<key>assets.assets_no</key>
+	<string>AplusCommonService/api/common/assets/</string>
+	<key>assets.list</key>
+	<string>AplusCommonService/api/common/assets</string>
+	<key>repairs.list</key>
+	<string>repair/api/repairs</string>
+</dict>
+</plist>

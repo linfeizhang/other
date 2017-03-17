@@ -1,0 +1,1247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0BAE461CEAE47800901519 /* Icon-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F0BAE451CEAE47800901519 /* Icon-57@2x.png */; };
+		1F0BAE4A1CEB1B7300901519 /* Icon-57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F0BAE491CEB1B7300901519 /* Icon-57@1x.png */; };
+		1F0D106D1B54ED2500BF251B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0D106B1B54EB1500BF251B /* libc++.dylib */; };
+		550583971D2213C300D28191 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 550583961D2213C300D28191 /* libz.dylib */; };
+		5507C2D11B2EF9AD003E6C41 /* BRImagePrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5507C2D01B2EF9AD003E6C41 /* BRImagePrintViewController.m */; };
+		5507C2D41B2EFA36003E6C41 /* BRImagePrintViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5507C2D31B2EFA36003E6C41 /* BRImagePrintViewController.storyboard */; };
+		55242B401B8EA97200E2615C /* BRPrintResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55242B3F1B8EA97200E2615C /* BRPrintResultViewController.m */; };
+		55242BA71B981F6F00A040B0 /* BRPrintSettingDetailTableVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55242BA61B981F6F00A040B0 /* BRPrintSettingDetailTableVIewController.m */; };
+		55242BAA1B9825CC00A040B0 /* BRSendDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55242BA91B9825CC00A040B0 /* BRSendDataTableViewController.m */; };
+		552747B41BA94E6800A5EC70 /* BRPtouchPrinterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552747B31BA94E6800A5EC70 /* BRPtouchPrinterKit.framework */; };
+		552B73FA1BA18A38006794BF /* BRPDFPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552B73F91BA18A38006794BF /* BRPDFPickerViewController.m */; };
+		5539AFF41B30001A00CE9D51 /* backLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 5539AFF11B30001A00CE9D51 /* backLeft.png */; };
+		5539AFF51B30001A00CE9D51 /* backLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5539AFF21B30001A00CE9D51 /* backLeft@2x.png */; };
+		5539AFF61B30001A00CE9D51 /* backLeft@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5539AFF31B30001A00CE9D51 /* backLeft@3x.png */; };
+		555E29E41B96962F001C29D6 /* BRSendDataViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555E29E31B96962F001C29D6 /* BRSendDataViewController.storyboard */; };
+		555E29E81B96FD72001C29D6 /* BRSendDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E29E71B96FD72001C29D6 /* BRSendDataViewController.m */; };
+		557064FD1B6F84B40080FC37 /* SDK_Sample_Ver2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE2D11AE4975E00D27574 /* SDK_Sample_Ver2Tests.m */; };
+		55A23D5D1AE868E900B3944C /* BlocklistPdf.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D571AE868E900B3944C /* BlocklistPdf.png */; };
+		55A23D5E1AE868E900B3944C /* Blocklistpdf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D581AE868E900B3944C /* Blocklistpdf@2x.png */; };
+		55A23D5F1AE868E900B3944C /* BlocklistPdf@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D591AE868E900B3944C /* BlocklistPdf@3x.png */; };
+		55A23D601AE868E900B3944C /* BlocklistPdfPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D5A1AE868E900B3944C /* BlocklistPdfPress.png */; };
+		55A23D611AE868E900B3944C /* BlocklistpdfPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D5B1AE868E900B3944C /* BlocklistpdfPress@2x.png */; };
+		55A23D621AE868E900B3944C /* BlocklistPdfPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D5C1AE868E900B3944C /* BlocklistPdfPress@3x.png */; };
+		55A23D691AE8691200B3944C /* infomationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D631AE8691200B3944C /* infomationIcon.png */; };
+		55A23D6A1AE8691200B3944C /* infomationIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D641AE8691200B3944C /* infomationIcon@2x.png */; };
+		55A23D6B1AE8691200B3944C /* infomationIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D651AE8691200B3944C /* infomationIcon@3x.png */; };
+		55A23D6C1AE8691200B3944C /* infomationIconPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D661AE8691200B3944C /* infomationIconPress.png */; };
+		55A23D6D1AE8691200B3944C /* infomationIconPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D671AE8691200B3944C /* infomationIconPress@2x.png */; };
+		55A23D6E1AE8691200B3944C /* infomationIconPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D681AE8691200B3944C /* infomationIconPress@3x.png */; };
+		55A23D751AE86B8700B3944C /* BlocklistImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D6F1AE86B8700B3944C /* BlocklistImg.png */; };
+		55A23D761AE86B8700B3944C /* Blocklistimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D701AE86B8700B3944C /* Blocklistimg@2x.png */; };
+		55A23D771AE86B8700B3944C /* BlocklistImg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D711AE86B8700B3944C /* BlocklistImg@3x.png */; };
+		55A23D781AE86B8700B3944C /* BlocklistimgPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D721AE86B8700B3944C /* BlocklistimgPress.png */; };
+		55A23D791AE86B8700B3944C /* BlocklistimgPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D731AE86B8700B3944C /* BlocklistimgPress@2x.png */; };
+		55A23D7A1AE86B8700B3944C /* BlocklistImgPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D741AE86B8700B3944C /* BlocklistImgPress@3x.png */; };
+		55A23D811AE86BCA00B3944C /* PrintGeneral.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D7B1AE86BCA00B3944C /* PrintGeneral.png */; };
+		55A23D821AE86BCA00B3944C /* PrintGeneral@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D7C1AE86BCA00B3944C /* PrintGeneral@2x.png */; };
+		55A23D831AE86BCA00B3944C /* PrintGeneral@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D7D1AE86BCA00B3944C /* PrintGeneral@3x.png */; };
+		55A23D841AE86BCA00B3944C /* PrintGeneralPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D7E1AE86BCA00B3944C /* PrintGeneralPress.png */; };
+		55A23D851AE86BCA00B3944C /* PrintGeneralPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D7F1AE86BCA00B3944C /* PrintGeneralPress@2x.png */; };
+		55A23D861AE86BCA00B3944C /* PrintGeneralPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D801AE86BCA00B3944C /* PrintGeneralPress@3x.png */; };
+		55A8BB831B3BC43000623FA6 /* PrintSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55A8BB821B3BC43000623FA6 /* PrintSettings.plist */; };
+		55A8BB8E1B3C04A600623FA6 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8BB861B3C04A600623FA6 /* Icon-60@2x.png */; };
+		55A8BB961B3C06A600623FA6 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8BB951B3C06A600623FA6 /* Icon-60@3x.png */; };
+		55AD4FF91AE62F8E0093FC18 /* albumPrintIconPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FF61AE62F8E0093FC18 /* albumPrintIconPress.png */; };
+		55AD4FFA1AE62F8E0093FC18 /* albumPrintIconPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FF71AE62F8E0093FC18 /* albumPrintIconPress@2x.png */; };
+		55AD4FFB1AE62F8E0093FC18 /* albumPrintIconPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FF81AE62F8E0093FC18 /* albumPrintIconPress@3x.png */; };
+		55AD4FFF1AE62FA30093FC18 /* clipboardPrintIconPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FFC1AE62FA30093FC18 /* clipboardPrintIconPress.png */; };
+		55AD50001AE62FA30093FC18 /* clipboardPrintIconPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FFD1AE62FA30093FC18 /* clipboardPrintIconPress@2x.png */; };
+		55AD50011AE62FA30093FC18 /* clipboardPrintIconPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FFE1AE62FA30093FC18 /* clipboardPrintIconPress@3x.png */; };
+		55B12A821B83535C00EDF8F5 /* BRWLANPrintOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B12A811B83535C00EDF8F5 /* BRWLANPrintOperation.m */; };
+		55B12A851B8353A200EDF8F5 /* BRBluetoothPrintOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B12A841B8353A200EDF8F5 /* BRBluetoothPrintOperation.m */; };
+		55E259F41B3972CC006277F1 /* BRImagePrintTablesViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E259F31B3972CC006277F1 /* BRImagePrintTablesViewItem.m */; };
+		55E259F71B397E8F006277F1 /* BRImagePrintTablesViewItemCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E259F61B397E8F006277F1 /* BRImagePrintTablesViewItemCreator.m */; };
+		55F71F111B3A7C6C008D7D1B /* BRSearchDeviceByWiFiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F71F101B3A7C6C008D7D1B /* BRSearchDeviceByWiFiTableViewController.m */; };
+		55F71F141B3A7D32008D7D1B /* BRSearchDeviceByMFiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F71F131B3A7D32008D7D1B /* BRSearchDeviceByMFiTableViewController.m */; };
+		55F71F171B3A7DED008D7D1B /* BRPrintSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F71F161B3A7DED008D7D1B /* BRPrintSettingsTableViewController.m */; };
+		55FCE2F41AE49D6700D27574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE2E81AE49D6700D27574 /* AppDelegate.m */; };
+		55FCE2F61AE49D6700D27574 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE2EC1AE49D6700D27574 /* Images.xcassets */; };
+		55FCE2F71AE49D6700D27574 /* BRMainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE2EE1AE49D6700D27574 /* BRMainViewController.storyboard */; };
+		55FCE2F81AE49D6700D27574 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE2F01AE49D6700D27574 /* LaunchScreen.xib */; };
+		55FCE2FA1AE49D6700D27574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE2F31AE49D6700D27574 /* main.m */; };
+		55FCE3051AE5200300D27574 /* BRMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3041AE5200300D27574 /* BRMainTableViewCell.xib */; };
+		55FCE30B1AE5207D00D27574 /* BRMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE3081AE5207D00D27574 /* BRMainTableViewCell.m */; };
+		55FCE30C1AE5207D00D27574 /* BRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE30A1AE5207D00D27574 /* BRMainViewController.m */; };
+		55FCE3151AE5239900D27574 /* albumPrintIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE30F1AE5239900D27574 /* albumPrintIcon.png */; };
+		55FCE3161AE5239900D27574 /* albumPrintIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3101AE5239900D27574 /* albumPrintIcon@2x.png */; };
+		55FCE3171AE5239900D27574 /* albumPrintIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3111AE5239900D27574 /* albumPrintIcon@3x.png */; };
+		55FCE3181AE5239900D27574 /* clipboardPrintIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3121AE5239900D27574 /* clipboardPrintIcon.png */; };
+		55FCE3191AE5239900D27574 /* clipboardPrintIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3131AE5239900D27574 /* clipboardPrintIcon@2x.png */; };
+		55FCE31A1AE5239900D27574 /* clipboardPrintIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3141AE5239900D27574 /* clipboardPrintIcon@3x.png */; };
+		55FCE31D1AE527D500D27574 /* BRMainTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE31C1AE527D500D27574 /* BRMainTableViewItem.m */; };
+		55FCE3211AE52A4000D27574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCE3201AE52A4000D27574 /* UIKit.framework */; };
+		55FCE3251AE52E0500D27574 /* BRMainTableViewItemCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE3241AE52E0500D27574 /* BRMainTableViewItemCreator.m */; };
+		55FF5FDD1DC89821003A911C /* BRUtilityViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FF5FDC1DC89821003A911C /* BRUtilityViewController.storyboard */; };
+		55FF5FE11DC8A115003A911C /* BRUtilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FF5FE01DC8A115003A911C /* BRUtilityViewController.m */; };
+		AEAA15FA1B4257770068D5D0 /* PrinterList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEAA15F91B4257770068D5D0 /* PrinterList.plist */; };
+		AEAA15FB1B425AE70068D5D0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAA15E11B4222100068D5D0 /* SystemConfiguration.framework */; };
+		AEAA16071B42769C0068D5D0 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAA16061B42769C0068D5D0 /* ExternalAccessory.framework */; };
+		ED0E0EFF1CE1F780001DBB2A /* BRMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE3081AE5207D00D27574 /* BRMainTableViewCell.m */; };
+		ED0E0F001CE1F780001DBB2A /* BRPDFPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552B73F91BA18A38006794BF /* BRPDFPickerViewController.m */; };
+		ED0E0F011CE1F780001DBB2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE2F31AE49D6700D27574 /* main.m */; };
+		ED0E0F021CE1F780001DBB2A /* BRSearchDeviceByWiFiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F71F101B3A7C6C008D7D1B /* BRSearchDeviceByWiFiTableViewController.m */; };
+		ED0E0F031CE1F780001DBB2A /* BRImagePrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5507C2D01B2EF9AD003E6C41 /* BRImagePrintViewController.m */; };
+		ED0E0F041CE1F780001DBB2A /* BRSendDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E29E71B96FD72001C29D6 /* BRSendDataViewController.m */; };
+		ED0E0F051CE1F780001DBB2A /* BRImagePrintTablesViewItemCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E259F61B397E8F006277F1 /* BRImagePrintTablesViewItemCreator.m */; };
+		ED0E0F071CE1F780001DBB2A /* BRPrintResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55242B3F1B8EA97200E2615C /* BRPrintResultViewController.m */; };
+		ED0E0F081CE1F780001DBB2A /* BRPrintSettingDetailTableVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55242BA61B981F6F00A040B0 /* BRPrintSettingDetailTableVIewController.m */; };
+		ED0E0F091CE1F780001DBB2A /* BRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE30A1AE5207D00D27574 /* BRMainViewController.m */; };
+		ED0E0F0A1CE1F780001DBB2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE2E81AE49D6700D27574 /* AppDelegate.m */; };
+		ED0E0F0B1CE1F780001DBB2A /* BRStaticIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB5C7441B8DA7A000E49777 /* BRStaticIPViewController.m */; };
+		ED0E0F0C1CE1F780001DBB2A /* PingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = ED87CA6B1B9412750075ECCB /* PingModule.m */; };
+		ED0E0F0D1CE1F780001DBB2A /* BRSelectWayOfSearchByWiFiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED786C1D1B8ED8FA001EA684 /* BRSelectWayOfSearchByWiFiTableViewController.m */; };
+		ED0E0F0E1CE1F780001DBB2A /* BRMainTableViewItemCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE3241AE52E0500D27574 /* BRMainTableViewItemCreator.m */; };
+		ED0E0F0F1CE1F780001DBB2A /* BRWLANPrintOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B12A811B83535C00EDF8F5 /* BRWLANPrintOperation.m */; };
+		ED0E0F101CE1F780001DBB2A /* BRMainTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FCE31C1AE527D500D27574 /* BRMainTableViewItem.m */; };
+		ED0E0F111CE1F780001DBB2A /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ED87CA6D1B9412750075ECCB /* PingOperation.m */; };
+		ED0E0F121CE1F780001DBB2A /* BRPrintSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F71F161B3A7DED008D7D1B /* BRPrintSettingsTableViewController.m */; };
+		ED0E0F131CE1F780001DBB2A /* BRImagePrintTablesViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E259F31B3972CC006277F1 /* BRImagePrintTablesViewItem.m */; };
+		ED0E0F141CE1F780001DBB2A /* BRSendDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55242BA91B9825CC00A040B0 /* BRSendDataTableViewController.m */; };
+		ED0E0F161CE1F780001DBB2A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0D106B1B54EB1500BF251B /* libc++.dylib */; };
+		ED0E0F191CE1F780001DBB2A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAA15E11B4222100068D5D0 /* SystemConfiguration.framework */; };
+		ED0E0F1A1CE1F780001DBB2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCE3201AE52A4000D27574 /* UIKit.framework */; };
+		ED0E0F1C1CE1F780001DBB2A /* backLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5539AFF21B30001A00CE9D51 /* backLeft@2x.png */; };
+		ED0E0F1D1CE1F780001DBB2A /* clipboardPrintIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3141AE5239900D27574 /* clipboardPrintIcon@3x.png */; };
+		ED0E0F1E1CE1F780001DBB2A /* infomationIconPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D671AE8691200B3944C /* infomationIconPress@2x.png */; };
+		ED0E0F1F1CE1F780001DBB2A /* PrintGeneral@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D7C1AE86BCA00B3944C /* PrintGeneral@2x.png */; };
+		ED0E0F201CE1F780001DBB2A /* BlocklistpdfPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D5B1AE868E900B3944C /* BlocklistpdfPress@2x.png */; };
+		ED0E0F211CE1F780001DBB2A /* albumPrintIconPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FF71AE62F8E0093FC18 /* albumPrintIconPress@2x.png */; };
+		ED0E0F221CE1F780001DBB2A /* PrintGeneralPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D7F1AE86BCA00B3944C /* PrintGeneralPress@2x.png */; };
+		ED0E0F231CE1F780001DBB2A /* infomationIconPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D661AE8691200B3944C /* infomationIconPress.png */; };
+		ED0E0F241CE1F780001DBB2A /* backLeft@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5539AFF31B30001A00CE9D51 /* backLeft@3x.png */; };
+		ED0E0F251CE1F780001DBB2A /* Blocklistpdf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D581AE868E900B3944C /* Blocklistpdf@2x.png */; };
+		ED0E0F261CE1F780001DBB2A /* BRSendDataViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555E29E31B96962F001C29D6 /* BRSendDataViewController.storyboard */; };
+		ED0E0F271CE1F780001DBB2A /* PrintGeneral.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D7B1AE86BCA00B3944C /* PrintGeneral.png */; };
+		ED0E0F281CE1F780001DBB2A /* PrintGeneralPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D7E1AE86BCA00B3944C /* PrintGeneralPress.png */; };
+		ED0E0F291CE1F780001DBB2A /* BlocklistPdf.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D571AE868E900B3944C /* BlocklistPdf.png */; };
+		ED0E0F2A1CE1F780001DBB2A /* albumPrintIconPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FF81AE62F8E0093FC18 /* albumPrintIconPress@3x.png */; };
+		ED0E0F2B1CE1F780001DBB2A /* clipboardPrintIconPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FFC1AE62FA30093FC18 /* clipboardPrintIconPress.png */; };
+		ED0E0F2C1CE1F780001DBB2A /* clipboardPrintIconPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FFE1AE62FA30093FC18 /* clipboardPrintIconPress@3x.png */; };
+		ED0E0F2D1CE1F780001DBB2A /* albumPrintIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE30F1AE5239900D27574 /* albumPrintIcon.png */; };
+		ED0E0F2E1CE1F780001DBB2A /* PrintGeneralPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D801AE86BCA00B3944C /* PrintGeneralPress@3x.png */; };
+		ED0E0F2F1CE1F780001DBB2A /* Blocklistimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D701AE86B8700B3944C /* Blocklistimg@2x.png */; };
+		ED0E0F301CE1F780001DBB2A /* BlocklistImgPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D741AE86B8700B3944C /* BlocklistImgPress@3x.png */; };
+		ED0E0F311CE1F780001DBB2A /* albumPrintIconPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FF61AE62F8E0093FC18 /* albumPrintIconPress.png */; };
+		ED0E0F321CE1F780001DBB2A /* infomationIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D651AE8691200B3944C /* infomationIcon@3x.png */; };
+		ED0E0F331CE1F780001DBB2A /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8BB861B3C04A600623FA6 /* Icon-60@2x.png */; };
+		ED0E0F341CE1F780001DBB2A /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A8BB951B3C06A600623FA6 /* Icon-60@3x.png */; };
+		ED0E0F351CE1F780001DBB2A /* BRImagePrintViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5507C2D31B2EFA36003E6C41 /* BRImagePrintViewController.storyboard */; };
+		ED0E0F361CE1F780001DBB2A /* albumPrintIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3111AE5239900D27574 /* albumPrintIcon@3x.png */; };
+		ED0E0F371CE1F780001DBB2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE2EC1AE49D6700D27574 /* Images.xcassets */; };
+		ED0E0F381CE1F780001DBB2A /* BRMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3041AE5200300D27574 /* BRMainTableViewCell.xib */; };
+		ED0E0F391CE1F780001DBB2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE2F01AE49D6700D27574 /* LaunchScreen.xib */; };
+		ED0E0F3A1CE1F780001DBB2A /* BlocklistPdfPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D5C1AE868E900B3944C /* BlocklistPdfPress@3x.png */; };
+		ED0E0F3B1CE1F780001DBB2A /* clipboardPrintIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3131AE5239900D27574 /* clipboardPrintIcon@2x.png */; };
+		ED0E0F3C1CE1F780001DBB2A /* BlocklistImg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D711AE86B8700B3944C /* BlocklistImg@3x.png */; };
+		ED0E0F3D1CE1F780001DBB2A /* albumPrintIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3101AE5239900D27574 /* albumPrintIcon@2x.png */; };
+		ED0E0F3E1CE1F780001DBB2A /* PrinterList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEAA15F91B4257770068D5D0 /* PrinterList.plist */; };
+		ED0E0F3F1CE1F780001DBB2A /* infomationIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D641AE8691200B3944C /* infomationIcon@2x.png */; };
+		ED0E0F401CE1F780001DBB2A /* backLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 5539AFF11B30001A00CE9D51 /* backLeft.png */; };
+		ED0E0F411CE1F780001DBB2A /* BlocklistimgPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D731AE86B8700B3944C /* BlocklistimgPress@2x.png */; };
+		ED0E0F421CE1F780001DBB2A /* infomationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D631AE8691200B3944C /* infomationIcon.png */; };
+		ED0E0F431CE1F780001DBB2A /* BlocklistImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D6F1AE86B8700B3944C /* BlocklistImg.png */; };
+		ED0E0F441CE1F780001DBB2A /* PrintGeneral@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D7D1AE86BCA00B3944C /* PrintGeneral@3x.png */; };
+		ED0E0F451CE1F780001DBB2A /* infomationIconPress@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D681AE8691200B3944C /* infomationIconPress@3x.png */; };
+		ED0E0F461CE1F780001DBB2A /* clipboardPrintIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE3121AE5239900D27574 /* clipboardPrintIcon.png */; };
+		ED0E0F471CE1F780001DBB2A /* clipboardPrintIconPress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD4FFD1AE62FA30093FC18 /* clipboardPrintIconPress@2x.png */; };
+		ED0E0F481CE1F780001DBB2A /* PrintSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55A8BB821B3BC43000623FA6 /* PrintSettings.plist */; };
+		ED0E0F491CE1F780001DBB2A /* BlocklistimgPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D721AE86B8700B3944C /* BlocklistimgPress.png */; };
+		ED0E0F4A1CE1F780001DBB2A /* BlocklistPdfPress.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D5A1AE868E900B3944C /* BlocklistPdfPress.png */; };
+		ED0E0F4B1CE1F780001DBB2A /* BlocklistPdf@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A23D591AE868E900B3944C /* BlocklistPdf@3x.png */; };
+		ED0E0F4C1CE1F780001DBB2A /* BRMainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FCE2EE1AE49D6700D27574 /* BRMainViewController.storyboard */; };
+		ED786C1E1B8ED8FA001EA684 /* BRSelectWayOfSearchByWiFiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED786C1D1B8ED8FA001EA684 /* BRSelectWayOfSearchByWiFiTableViewController.m */; };
+		ED87CA6E1B9412750075ECCB /* PingModule.m in Sources */ = {isa = PBXBuildFile; fileRef = ED87CA6B1B9412750075ECCB /* PingModule.m */; };
+		ED87CA6F1B9412750075ECCB /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ED87CA6D1B9412750075ECCB /* PingOperation.m */; };
+		ED987CCE1CE32A560005724D /* BRPtouchPrinterKitW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED987CCD1CE32A560005724D /* BRPtouchPrinterKitW.framework */; };
+		EDB5C7451B8DA7A000E49777 /* BRStaticIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB5C7441B8DA7A000E49777 /* BRStaticIPViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55FCE2CC1AE4975E00D27574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55FCE2AA1AE4975E00D27574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55FCE2B11AE4975E00D27574;
+			remoteInfo = SDK_Sample_Ver2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F0BAE451CEAE47800901519 /* Icon-57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-57@2x.png"; path = "Icon/Icon-57@2x.png"; sourceTree = "<group>"; };
+		1F0BAE491CEB1B7300901519 /* Icon-57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-57@1x.png"; path = "Icon/Icon-57@1x.png"; sourceTree = "<group>"; };
+		1F0D106B1B54EB1500BF251B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		550583941D2213B700D28191 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		550583961D2213C300D28191 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5507C2CF1B2EF9AD003E6C41 /* BRImagePrintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRImagePrintViewController.h; path = ImagePrintVIew/BRImagePrintViewController.h; sourceTree = "<group>"; };
+		5507C2D01B2EF9AD003E6C41 /* BRImagePrintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRImagePrintViewController.m; path = ImagePrintVIew/BRImagePrintViewController.m; sourceTree = "<group>"; };
+		5507C2D31B2EFA36003E6C41 /* BRImagePrintViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BRImagePrintViewController.storyboard; sourceTree = "<group>"; };
+		55242B3E1B8EA97200E2615C /* BRPrintResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRPrintResultViewController.h; path = ImagePrintVIew/PrintResultView/BRPrintResultViewController.h; sourceTree = "<group>"; };
+		55242B3F1B8EA97200E2615C /* BRPrintResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRPrintResultViewController.m; path = ImagePrintVIew/PrintResultView/BRPrintResultViewController.m; sourceTree = "<group>"; };
+		55242BA51B981F6F00A040B0 /* BRPrintSettingDetailTableVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRPrintSettingDetailTableVIewController.h; path = ImagePrintVIew/RootPrintSettingsVIew/BRPrintSettingDetailVIew/BRPrintSettingDetailTableVIewController.h; sourceTree = "<group>"; };
+		55242BA61B981F6F00A040B0 /* BRPrintSettingDetailTableVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRPrintSettingDetailTableVIewController.m; path = ImagePrintVIew/RootPrintSettingsVIew/BRPrintSettingDetailVIew/BRPrintSettingDetailTableVIewController.m; sourceTree = "<group>"; };
+		55242BA81B9825CC00A040B0 /* BRSendDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRSendDataTableViewController.h; path = SendDataView/BRSendDataTableViewController.h; sourceTree = "<group>"; };
+		55242BA91B9825CC00A040B0 /* BRSendDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRSendDataTableViewController.m; path = SendDataView/BRSendDataTableViewController.m; sourceTree = "<group>"; };
+		552747B31BA94E6800A5EC70 /* BRPtouchPrinterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRPtouchPrinterKit.framework; path = libs/BRPtouchPrinterKit.framework; sourceTree = "<group>"; };
+		552B73F81BA18A38006794BF /* BRPDFPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRPDFPickerViewController.h; path = ImagePrintVIew/PDFPickerView/BRPDFPickerViewController.h; sourceTree = "<group>"; };
+		552B73F91BA18A38006794BF /* BRPDFPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRPDFPickerViewController.m; path = ImagePrintVIew/PDFPickerView/BRPDFPickerViewController.m; sourceTree = "<group>"; };
+		5539AFF11B30001A00CE9D51 /* backLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backLeft.png; sourceTree = "<group>"; };
+		5539AFF21B30001A00CE9D51 /* backLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backLeft@2x.png"; sourceTree = "<group>"; };
+		5539AFF31B30001A00CE9D51 /* backLeft@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backLeft@3x.png"; sourceTree = "<group>"; };
+		555E29E31B96962F001C29D6 /* BRSendDataViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BRSendDataViewController.storyboard; sourceTree = "<group>"; };
+		555E29E61B96FD72001C29D6 /* BRSendDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRSendDataViewController.h; path = SendDataView/BRSendDataViewController.h; sourceTree = "<group>"; };
+		555E29E71B96FD72001C29D6 /* BRSendDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRSendDataViewController.m; path = SendDataView/BRSendDataViewController.m; sourceTree = "<group>"; };
+		55A23D571AE868E900B3944C /* BlocklistPdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlocklistPdf.png; sourceTree = "<group>"; };
+		55A23D581AE868E900B3944C /* Blocklistpdf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blocklistpdf@2x.png"; sourceTree = "<group>"; };
+		55A23D591AE868E900B3944C /* BlocklistPdf@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlocklistPdf@3x.png"; sourceTree = "<group>"; };
+		55A23D5A1AE868E900B3944C /* BlocklistPdfPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlocklistPdfPress.png; sourceTree = "<group>"; };
+		55A23D5B1AE868E900B3944C /* BlocklistpdfPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlocklistpdfPress@2x.png"; sourceTree = "<group>"; };
+		55A23D5C1AE868E900B3944C /* BlocklistPdfPress@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlocklistPdfPress@3x.png"; sourceTree = "<group>"; };
+		55A23D631AE8691200B3944C /* infomationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infomationIcon.png; sourceTree = "<group>"; };
+		55A23D641AE8691200B3944C /* infomationIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infomationIcon@2x.png"; sourceTree = "<group>"; };
+		55A23D651AE8691200B3944C /* infomationIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infomationIcon@3x.png"; sourceTree = "<group>"; };
+		55A23D661AE8691200B3944C /* infomationIconPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infomationIconPress.png; sourceTree = "<group>"; };
+		55A23D671AE8691200B3944C /* infomationIconPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infomationIconPress@2x.png"; sourceTree = "<group>"; };
+		55A23D681AE8691200B3944C /* infomationIconPress@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infomationIconPress@3x.png"; sourceTree = "<group>"; };
+		55A23D6F1AE86B8700B3944C /* BlocklistImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlocklistImg.png; sourceTree = "<group>"; };
+		55A23D701AE86B8700B3944C /* Blocklistimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blocklistimg@2x.png"; sourceTree = "<group>"; };
+		55A23D711AE86B8700B3944C /* BlocklistImg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlocklistImg@3x.png"; sourceTree = "<group>"; };
+		55A23D721AE86B8700B3944C /* BlocklistimgPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlocklistimgPress.png; sourceTree = "<group>"; };
+		55A23D731AE86B8700B3944C /* BlocklistimgPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlocklistimgPress@2x.png"; sourceTree = "<group>"; };
+		55A23D741AE86B8700B3944C /* BlocklistImgPress@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlocklistImgPress@3x.png"; sourceTree = "<group>"; };
+		55A23D7B1AE86BCA00B3944C /* PrintGeneral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PrintGeneral.png; sourceTree = "<group>"; };
+		55A23D7C1AE86BCA00B3944C /* PrintGeneral@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PrintGeneral@2x.png"; sourceTree = "<group>"; };
+		55A23D7D1AE86BCA00B3944C /* PrintGeneral@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PrintGeneral@3x.png"; sourceTree = "<group>"; };
+		55A23D7E1AE86BCA00B3944C /* PrintGeneralPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PrintGeneralPress.png; sourceTree = "<group>"; };
+		55A23D7F1AE86BCA00B3944C /* PrintGeneralPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PrintGeneralPress@2x.png"; sourceTree = "<group>"; };
+		55A23D801AE86BCA00B3944C /* PrintGeneralPress@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PrintGeneralPress@3x.png"; sourceTree = "<group>"; };
+		55A8BB821B3BC43000623FA6 /* PrintSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrintSettings.plist; path = Settings/PrintSettings.plist; sourceTree = "<group>"; };
+		55A8BB861B3C04A600623FA6 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "Icon/Icon-60@2x.png"; sourceTree = "<group>"; };
+		55A8BB951B3C06A600623FA6 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "Icon/Icon-60@3x.png"; sourceTree = "<group>"; };
+		55AD4FF61AE62F8E0093FC18 /* albumPrintIconPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = albumPrintIconPress.png; sourceTree = "<group>"; };
+		55AD4FF71AE62F8E0093FC18 /* albumPrintIconPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "albumPrintIconPress@2x.png"; sourceTree = "<group>"; };
+		55AD4FF81AE62F8E0093FC18 /* albumPrintIconPress@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "albumPrintIconPress@3x.png"; sourceTree = "<group>"; };
+		55AD4FFC1AE62FA30093FC18 /* clipboardPrintIconPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboardPrintIconPress.png; sourceTree = "<group>"; };
+		55AD4FFD1AE62FA30093FC18 /* clipboardPrintIconPress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clipboardPrintIconPress@2x.png"; sourceTree = "<group>"; };
+		55AD4FFE1AE62FA30093FC18 /* clipboardPrintIconPress@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clipboardPrintIconPress@3x.png"; sourceTree = "<group>"; };
+		55B12A801B83535C00EDF8F5 /* BRWLANPrintOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRWLANPrintOperation.h; path = ImagePrintVIew/WLANPrintOperation/BRWLANPrintOperation.h; sourceTree = "<group>"; };
+		55B12A811B83535C00EDF8F5 /* BRWLANPrintOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRWLANPrintOperation.m; path = ImagePrintVIew/WLANPrintOperation/BRWLANPrintOperation.m; sourceTree = "<group>"; };
+		55B12A831B8353A200EDF8F5 /* BRBluetoothPrintOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRBluetoothPrintOperation.h; path = ImagePrintVIew/BluetoothPrintOperation/BRBluetoothPrintOperation.h; sourceTree = "<group>"; };
+		55B12A841B8353A200EDF8F5 /* BRBluetoothPrintOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRBluetoothPrintOperation.m; path = ImagePrintVIew/BluetoothPrintOperation/BRBluetoothPrintOperation.m; sourceTree = "<group>"; };
+		55E259F21B3972CC006277F1 /* BRImagePrintTablesViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRImagePrintTablesViewItem.h; path = ImagePrintVIew/BRImagePrintTablesViewItem.h; sourceTree = "<group>"; };
+		55E259F31B3972CC006277F1 /* BRImagePrintTablesViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRImagePrintTablesViewItem.m; path = ImagePrintVIew/BRImagePrintTablesViewItem.m; sourceTree = "<group>"; };
+		55E259F51B397E8F006277F1 /* BRImagePrintTablesViewItemCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRImagePrintTablesViewItemCreator.h; path = ImagePrintVIew/BRImagePrintTablesViewItemCreator.h; sourceTree = "<group>"; };
+		55E259F61B397E8F006277F1 /* BRImagePrintTablesViewItemCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRImagePrintTablesViewItemCreator.m; path = ImagePrintVIew/BRImagePrintTablesViewItemCreator.m; sourceTree = "<group>"; };
+		55F71F0F1B3A7C6C008D7D1B /* BRSearchDeviceByWiFiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRSearchDeviceByWiFiTableViewController.h; path = ImagePrintVIew/SearchDeviceByWiFiView/BRSearchDeviceByWiFiTableViewController.h; sourceTree = "<group>"; };
+		55F71F101B3A7C6C008D7D1B /* BRSearchDeviceByWiFiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRSearchDeviceByWiFiTableViewController.m; path = ImagePrintVIew/SearchDeviceByWiFiView/BRSearchDeviceByWiFiTableViewController.m; sourceTree = "<group>"; };
+		55F71F121B3A7D32008D7D1B /* BRSearchDeviceByMFiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRSearchDeviceByMFiTableViewController.h; path = ImagePrintVIew/SearchDeviceByMFiView/BRSearchDeviceByMFiTableViewController.h; sourceTree = "<group>"; };
+		55F71F131B3A7D32008D7D1B /* BRSearchDeviceByMFiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRSearchDeviceByMFiTableViewController.m; path = ImagePrintVIew/SearchDeviceByMFiView/BRSearchDeviceByMFiTableViewController.m; sourceTree = "<group>"; };
+		55F71F151B3A7DED008D7D1B /* BRPrintSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRPrintSettingsTableViewController.h; path = ImagePrintVIew/RootPrintSettingsVIew/BRPrintSettingsTableViewController.h; sourceTree = "<group>"; };
+		55F71F161B3A7DED008D7D1B /* BRPrintSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRPrintSettingsTableViewController.m; path = ImagePrintVIew/RootPrintSettingsVIew/BRPrintSettingsTableViewController.m; sourceTree = "<group>"; };
+		55FCE2B21AE4975E00D27574 /* SDK_Sample_Ver2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDK_Sample_Ver2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FCE2CB1AE4975E00D27574 /* SDK_Sample_Ver2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDK_Sample_Ver2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FCE2D01AE4975E00D27574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FCE2D11AE4975E00D27574 /* SDK_Sample_Ver2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDK_Sample_Ver2Tests.m; sourceTree = "<group>"; };
+		55FCE2E71AE49D6700D27574 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55FCE2E81AE49D6700D27574 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55FCE2EC1AE49D6700D27574 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55FCE2EE1AE49D6700D27574 /* BRMainViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BRMainViewController.storyboard; sourceTree = "<group>"; };
+		55FCE2F01AE49D6700D27574 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		55FCE2F21AE49D6700D27574 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FCE2F31AE49D6700D27574 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55FCE3041AE5200300D27574 /* BRMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRMainTableViewCell.xib; sourceTree = "<group>"; };
+		55FCE3071AE5207D00D27574 /* BRMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRMainTableViewCell.h; path = MainView/BRMainTableViewCell.h; sourceTree = "<group>"; };
+		55FCE3081AE5207D00D27574 /* BRMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRMainTableViewCell.m; path = MainView/BRMainTableViewCell.m; sourceTree = "<group>"; };
+		55FCE3091AE5207D00D27574 /* BRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRMainViewController.h; path = MainView/BRMainViewController.h; sourceTree = "<group>"; };
+		55FCE30A1AE5207D00D27574 /* BRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRMainViewController.m; path = MainView/BRMainViewController.m; sourceTree = "<group>"; };
+		55FCE30F1AE5239900D27574 /* albumPrintIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = albumPrintIcon.png; sourceTree = "<group>"; };
+		55FCE3101AE5239900D27574 /* albumPrintIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "albumPrintIcon@2x.png"; sourceTree = "<group>"; };
+		55FCE3111AE5239900D27574 /* albumPrintIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "albumPrintIcon@3x.png"; sourceTree = "<group>"; };
+		55FCE3121AE5239900D27574 /* clipboardPrintIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboardPrintIcon.png; sourceTree = "<group>"; };
+		55FCE3131AE5239900D27574 /* clipboardPrintIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clipboardPrintIcon@2x.png"; sourceTree = "<group>"; };
+		55FCE3141AE5239900D27574 /* clipboardPrintIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clipboardPrintIcon@3x.png"; sourceTree = "<group>"; };
+		55FCE31B1AE527D500D27574 /* BRMainTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRMainTableViewItem.h; path = MainView/BRMainTableViewItem.h; sourceTree = "<group>"; };
+		55FCE31C1AE527D500D27574 /* BRMainTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRMainTableViewItem.m; path = MainView/BRMainTableViewItem.m; sourceTree = "<group>"; };
+		55FCE3201AE52A4000D27574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55FCE3231AE52E0500D27574 /* BRMainTableViewItemCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRMainTableViewItemCreator.h; path = MainView/BRMainTableViewItemCreator.h; sourceTree = "<group>"; };
+		55FCE3241AE52E0500D27574 /* BRMainTableViewItemCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRMainTableViewItemCreator.m; path = MainView/BRMainTableViewItemCreator.m; sourceTree = "<group>"; };
+		55FCE3261AE52F3400D27574 /* UserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		55FF5FDC1DC89821003A911C /* BRUtilityViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BRUtilityViewController.storyboard; sourceTree = "<group>"; };
+		55FF5FDF1DC8A115003A911C /* BRUtilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRUtilityViewController.h; path = UtilityView/BRUtilityViewController.h; sourceTree = "<group>"; };
+		55FF5FE01DC8A115003A911C /* BRUtilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRUtilityViewController.m; path = UtilityView/BRUtilityViewController.m; sourceTree = "<group>"; };
+		AEAA15E11B4222100068D5D0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AEAA15F91B4257770068D5D0 /* PrinterList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PrinterList.plist; sourceTree = "<group>"; };
+		AEAA16061B42769C0068D5D0 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		ED0E0F501CE1F780001DBB2A /* SDK_Sample_Ver2 (WLAN-Only).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK_Sample_Ver2 (WLAN-Only).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0E0F511CE1F780001DBB2A /* SDK_Sample_Ver2 (WLAN-Only)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDK_Sample_Ver2 (WLAN-Only)-Info.plist"; sourceTree = "<group>"; };
+		ED786C1C1B8ED8FA001EA684 /* BRSelectWayOfSearchByWiFiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRSelectWayOfSearchByWiFiTableViewController.h; path = ImagePrintVIew/SearchDeviceByWiFiView/BRSelectWayOfSearchByWiFiTableViewController.h; sourceTree = "<group>"; };
+		ED786C1D1B8ED8FA001EA684 /* BRSelectWayOfSearchByWiFiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRSelectWayOfSearchByWiFiTableViewController.m; path = ImagePrintVIew/SearchDeviceByWiFiView/BRSelectWayOfSearchByWiFiTableViewController.m; sourceTree = "<group>"; };
+		ED87CA6A1B9412750075ECCB /* PingModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingModule.h; sourceTree = "<group>"; };
+		ED87CA6B1B9412750075ECCB /* PingModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingModule.m; sourceTree = "<group>"; };
+		ED87CA6C1B9412750075ECCB /* PingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingOperation.h; sourceTree = "<group>"; };
+		ED87CA6D1B9412750075ECCB /* PingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingOperation.m; sourceTree = "<group>"; };
+		ED987CCD1CE32A560005724D /* BRPtouchPrinterKitW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRPtouchPrinterKitW.framework; path = libs/BRPtouchPrinterKitW.framework; sourceTree = "<group>"; };
+		EDB5C7431B8DA7A000E49777 /* BRStaticIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRStaticIPViewController.h; path = ImagePrintVIew/SearchDeviceByWiFiView/BRStaticIPViewController.h; sourceTree = "<group>"; };
+		EDB5C7441B8DA7A000E49777 /* BRStaticIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRStaticIPViewController.m; path = ImagePrintVIew/SearchDeviceByWiFiView/BRStaticIPViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55FCE2AF1AE4975E00D27574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550583971D2213C300D28191 /* libz.dylib in Frameworks */,
+				1F0D106D1B54ED2500BF251B /* libc++.dylib in Frameworks */,
+				AEAA16071B42769C0068D5D0 /* ExternalAccessory.framework in Frameworks */,
+				552747B41BA94E6800A5EC70 /* BRPtouchPrinterKit.framework in Frameworks */,
+				AEAA15FB1B425AE70068D5D0 /* SystemConfiguration.framework in Frameworks */,
+				55FCE3211AE52A4000D27574 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCE2C81AE4975E00D27574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0E0F151CE1F780001DBB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0E0F161CE1F780001DBB2A /* libc++.dylib in Frameworks */,
+				ED0E0F191CE1F780001DBB2A /* SystemConfiguration.framework in Frameworks */,
+				ED987CCE1CE32A560005724D /* BRPtouchPrinterKitW.framework in Frameworks */,
+				ED0E0F1A1CE1F780001DBB2A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5507C2D21B2EF9E2003E6C41 /* ImagePrintView */ = {
+			isa = PBXGroup;
+			children = (
+				5507C2CF1B2EF9AD003E6C41 /* BRImagePrintViewController.h */,
+				5507C2D01B2EF9AD003E6C41 /* BRImagePrintViewController.m */,
+				55E259F21B3972CC006277F1 /* BRImagePrintTablesViewItem.h */,
+				55E259F31B3972CC006277F1 /* BRImagePrintTablesViewItem.m */,
+				55E259F51B397E8F006277F1 /* BRImagePrintTablesViewItemCreator.h */,
+				55E259F61B397E8F006277F1 /* BRImagePrintTablesViewItemCreator.m */,
+				552B73F71BA189F7006794BF /* PDFPickerView */,
+				55F71F0C1B3A7B9E008D7D1B /* SearchDeviceByWiFiView */,
+				55F71F0D1B3A7BD8008D7D1B /* SearchDeviceByMFiView */,
+				55B12A7F1B83531A00EDF8F5 /* WLANPrintOperation */,
+				55B12A7E1B8352EF00EDF8F5 /* BluetoothPrintOperation */,
+				55F71F0E1B3A7BE6008D7D1B /* RootPrintSettingsVIew */,
+				55242B3D1B8EA8C100E2615C /* PrintResultView */,
+			);
+			name = ImagePrintView;
+			sourceTree = "<group>";
+		};
+		55242B3D1B8EA8C100E2615C /* PrintResultView */ = {
+			isa = PBXGroup;
+			children = (
+				55242B3E1B8EA97200E2615C /* BRPrintResultViewController.h */,
+				55242B3F1B8EA97200E2615C /* BRPrintResultViewController.m */,
+			);
+			name = PrintResultView;
+			sourceTree = "<group>";
+		};
+		55242BA41B981F5B00A040B0 /* BRPrintSettingDetailVIew */ = {
+			isa = PBXGroup;
+			children = (
+				55242BA51B981F6F00A040B0 /* BRPrintSettingDetailTableVIewController.h */,
+				55242BA61B981F6F00A040B0 /* BRPrintSettingDetailTableVIewController.m */,
+			);
+			name = BRPrintSettingDetailVIew;
+			sourceTree = "<group>";
+		};
+		552747B21BA94E3100A5EC70 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				552747B31BA94E6800A5EC70 /* BRPtouchPrinterKit.framework */,
+				ED987CCD1CE32A560005724D /* BRPtouchPrinterKitW.framework */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		552B73F71BA189F7006794BF /* PDFPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				552B73F81BA18A38006794BF /* BRPDFPickerViewController.h */,
+				552B73F91BA18A38006794BF /* BRPDFPickerViewController.m */,
+			);
+			name = PDFPickerView;
+			sourceTree = "<group>";
+		};
+		5539AFF01B30001A00CE9D51 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5539AFF11B30001A00CE9D51 /* backLeft.png */,
+				5539AFF21B30001A00CE9D51 /* backLeft@2x.png */,
+				5539AFF31B30001A00CE9D51 /* backLeft@3x.png */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		555E29E51B96FD07001C29D6 /* SendDataView */ = {
+			isa = PBXGroup;
+			children = (
+				555E29E61B96FD72001C29D6 /* BRSendDataViewController.h */,
+				555E29E71B96FD72001C29D6 /* BRSendDataViewController.m */,
+				55242BA81B9825CC00A040B0 /* BRSendDataTableViewController.h */,
+				55242BA91B9825CC00A040B0 /* BRSendDataTableViewController.m */,
+			);
+			name = SendDataView;
+			sourceTree = "<group>";
+		};
+		55A8BB811B3BC39A00623FA6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				55A8BB821B3BC43000623FA6 /* PrintSettings.plist */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		55A8BB841B3C049200623FA6 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				1F0BAE491CEB1B7300901519 /* Icon-57@1x.png */,
+				1F0BAE451CEAE47800901519 /* Icon-57@2x.png */,
+				55A8BB861B3C04A600623FA6 /* Icon-60@2x.png */,
+				55A8BB951B3C06A600623FA6 /* Icon-60@3x.png */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
+		55B12A7E1B8352EF00EDF8F5 /* BluetoothPrintOperation */ = {
+			isa = PBXGroup;
+			children = (
+				55B12A831B8353A200EDF8F5 /* BRBluetoothPrintOperation.h */,
+				55B12A841B8353A200EDF8F5 /* BRBluetoothPrintOperation.m */,
+			);
+			name = BluetoothPrintOperation;
+			sourceTree = "<group>";
+		};
+		55B12A7F1B83531A00EDF8F5 /* WLANPrintOperation */ = {
+			isa = PBXGroup;
+			children = (
+				55B12A801B83535C00EDF8F5 /* BRWLANPrintOperation.h */,
+				55B12A811B83535C00EDF8F5 /* BRWLANPrintOperation.m */,
+			);
+			name = WLANPrintOperation;
+			sourceTree = "<group>";
+		};
+		55F71F0C1B3A7B9E008D7D1B /* SearchDeviceByWiFiView */ = {
+			isa = PBXGroup;
+			children = (
+				ED786C1C1B8ED8FA001EA684 /* BRSelectWayOfSearchByWiFiTableViewController.h */,
+				ED786C1D1B8ED8FA001EA684 /* BRSelectWayOfSearchByWiFiTableViewController.m */,
+				55F71F0F1B3A7C6C008D7D1B /* BRSearchDeviceByWiFiTableViewController.h */,
+				55F71F101B3A7C6C008D7D1B /* BRSearchDeviceByWiFiTableViewController.m */,
+				EDB5C7431B8DA7A000E49777 /* BRStaticIPViewController.h */,
+				EDB5C7441B8DA7A000E49777 /* BRStaticIPViewController.m */,
+				ED87CA691B9412750075ECCB /* Ping */,
+			);
+			name = SearchDeviceByWiFiView;
+			sourceTree = "<group>";
+		};
+		55F71F0D1B3A7BD8008D7D1B /* SearchDeviceByMFiView */ = {
+			isa = PBXGroup;
+			children = (
+				55F71F121B3A7D32008D7D1B /* BRSearchDeviceByMFiTableViewController.h */,
+				55F71F131B3A7D32008D7D1B /* BRSearchDeviceByMFiTableViewController.m */,
+			);
+			name = SearchDeviceByMFiView;
+			sourceTree = "<group>";
+		};
+		55F71F0E1B3A7BE6008D7D1B /* RootPrintSettingsVIew */ = {
+			isa = PBXGroup;
+			children = (
+				55F71F151B3A7DED008D7D1B /* BRPrintSettingsTableViewController.h */,
+				55F71F161B3A7DED008D7D1B /* BRPrintSettingsTableViewController.m */,
+				55242BA41B981F5B00A040B0 /* BRPrintSettingDetailVIew */,
+			);
+			name = RootPrintSettingsVIew;
+			sourceTree = "<group>";
+		};
+		55FCE2A91AE4975E00D27574 = {
+			isa = PBXGroup;
+			children = (
+				55FCE2E51AE49D6700D27574 /* SDK_Sample_Ver2 */,
+				55FCE3221AE52AA400D27574 /* Frameworks */,
+				552747B21BA94E3100A5EC70 /* libs */,
+				55FCE2CE1AE4975E00D27574 /* SDK_Sample_Ver2Tests */,
+				55FCE2B31AE4975E00D27574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55FCE2B31AE4975E00D27574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55FCE2B21AE4975E00D27574 /* SDK_Sample_Ver2.app */,
+				55FCE2CB1AE4975E00D27574 /* SDK_Sample_Ver2Tests.xctest */,
+				ED0E0F501CE1F780001DBB2A /* SDK_Sample_Ver2 (WLAN-Only).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55FCE2CE1AE4975E00D27574 /* SDK_Sample_Ver2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				55FCE2D11AE4975E00D27574 /* SDK_Sample_Ver2Tests.m */,
+				55FCE2CF1AE4975E00D27574 /* Supporting Files */,
+			);
+			path = SDK_Sample_Ver2Tests;
+			sourceTree = "<group>";
+		};
+		55FCE2CF1AE4975E00D27574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55FCE2D01AE4975E00D27574 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55FCE2E51AE49D6700D27574 /* SDK_Sample_Ver2 */ = {
+			isa = PBXGroup;
+			children = (
+				55FCE2E61AE49D6700D27574 /* Classes */,
+				55FCE2EB1AE49D6700D27574 /* Resources */,
+				55FCE2F11AE49D6700D27574 /* Supporting Files */,
+			);
+			path = SDK_Sample_Ver2;
+			sourceTree = "<group>";
+		};
+		55FCE2E61AE49D6700D27574 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				55FCE3261AE52F3400D27574 /* UserDefaults.h */,
+				55FCE2E71AE49D6700D27574 /* AppDelegate.h */,
+				55FCE2E81AE49D6700D27574 /* AppDelegate.m */,
+				55FCE3061AE5202400D27574 /* MainVIew */,
+				5507C2D21B2EF9E2003E6C41 /* ImagePrintView */,
+				555E29E51B96FD07001C29D6 /* SendDataView */,
+				55FF5FDE1DC8A0AB003A911C /* UtilityView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		55FCE2EB1AE49D6700D27574 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55FCE2EC1AE49D6700D27574 /* Images.xcassets */,
+				55FCE30D1AE522F100D27574 /* Images */,
+				55FCE2ED1AE49D6700D27574 /* Storyboards */,
+				55FCE2EF1AE49D6700D27574 /* Xibs */,
+				55A8BB811B3BC39A00623FA6 /* Settings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55FCE2ED1AE49D6700D27574 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				55FCE2EE1AE49D6700D27574 /* BRMainViewController.storyboard */,
+				5507C2D31B2EFA36003E6C41 /* BRImagePrintViewController.storyboard */,
+				555E29E31B96962F001C29D6 /* BRSendDataViewController.storyboard */,
+				55FF5FDC1DC89821003A911C /* BRUtilityViewController.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		55FCE2EF1AE49D6700D27574 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				55FCE2F01AE49D6700D27574 /* LaunchScreen.xib */,
+				55FCE3041AE5200300D27574 /* BRMainTableViewCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		55FCE2F11AE49D6700D27574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEAA15F91B4257770068D5D0 /* PrinterList.plist */,
+				55FCE2F21AE49D6700D27574 /* Info.plist */,
+				ED0E0F511CE1F780001DBB2A /* SDK_Sample_Ver2 (WLAN-Only)-Info.plist */,
+				55FCE2F31AE49D6700D27574 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55FCE3061AE5202400D27574 /* MainVIew */ = {
+			isa = PBXGroup;
+			children = (
+				55FCE3091AE5207D00D27574 /* BRMainViewController.h */,
+				55FCE30A1AE5207D00D27574 /* BRMainViewController.m */,
+				55FCE3071AE5207D00D27574 /* BRMainTableViewCell.h */,
+				55FCE3081AE5207D00D27574 /* BRMainTableViewCell.m */,
+				55FCE31B1AE527D500D27574 /* BRMainTableViewItem.h */,
+				55FCE31C1AE527D500D27574 /* BRMainTableViewItem.m */,
+				55FCE3231AE52E0500D27574 /* BRMainTableViewItemCreator.h */,
+				55FCE3241AE52E0500D27574 /* BRMainTableViewItemCreator.m */,
+			);
+			name = MainVIew;
+			sourceTree = "<group>";
+		};
+		55FCE30D1AE522F100D27574 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				55A8BB841B3C049200623FA6 /* Icon */,
+				5539AFF01B30001A00CE9D51 /* Common */,
+				55FCE30E1AE5239900D27574 /* MainVIew */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		55FCE30E1AE5239900D27574 /* MainVIew */ = {
+			isa = PBXGroup;
+			children = (
+				55A23D7B1AE86BCA00B3944C /* PrintGeneral.png */,
+				55A23D7C1AE86BCA00B3944C /* PrintGeneral@2x.png */,
+				55A23D7D1AE86BCA00B3944C /* PrintGeneral@3x.png */,
+				55A23D7E1AE86BCA00B3944C /* PrintGeneralPress.png */,
+				55A23D7F1AE86BCA00B3944C /* PrintGeneralPress@2x.png */,
+				55A23D801AE86BCA00B3944C /* PrintGeneralPress@3x.png */,
+				55A23D6F1AE86B8700B3944C /* BlocklistImg.png */,
+				55A23D701AE86B8700B3944C /* Blocklistimg@2x.png */,
+				55A23D711AE86B8700B3944C /* BlocklistImg@3x.png */,
+				55A23D721AE86B8700B3944C /* BlocklistimgPress.png */,
+				55A23D731AE86B8700B3944C /* BlocklistimgPress@2x.png */,
+				55A23D741AE86B8700B3944C /* BlocklistImgPress@3x.png */,
+				55FCE30F1AE5239900D27574 /* albumPrintIcon.png */,
+				55FCE3101AE5239900D27574 /* albumPrintIcon@2x.png */,
+				55FCE3111AE5239900D27574 /* albumPrintIcon@3x.png */,
+				55AD4FF61AE62F8E0093FC18 /* albumPrintIconPress.png */,
+				55AD4FF71AE62F8E0093FC18 /* albumPrintIconPress@2x.png */,
+				55AD4FF81AE62F8E0093FC18 /* albumPrintIconPress@3x.png */,
+				55A23D571AE868E900B3944C /* BlocklistPdf.png */,
+				55A23D581AE868E900B3944C /* Blocklistpdf@2x.png */,
+				55A23D591AE868E900B3944C /* BlocklistPdf@3x.png */,
+				55A23D5A1AE868E900B3944C /* BlocklistPdfPress.png */,
+				55A23D5B1AE868E900B3944C /* BlocklistpdfPress@2x.png */,
+				55A23D5C1AE868E900B3944C /* BlocklistPdfPress@3x.png */,
+				55FCE3121AE5239900D27574 /* clipboardPrintIcon.png */,
+				55FCE3131AE5239900D27574 /* clipboardPrintIcon@2x.png */,
+				55FCE3141AE5239900D27574 /* clipboardPrintIcon@3x.png */,
+				55AD4FFC1AE62FA30093FC18 /* clipboardPrintIconPress.png */,
+				55AD4FFD1AE62FA30093FC18 /* clipboardPrintIconPress@2x.png */,
+				55AD4FFE1AE62FA30093FC18 /* clipboardPrintIconPress@3x.png */,
+				55A23D631AE8691200B3944C /* infomationIcon.png */,
+				55A23D641AE8691200B3944C /* infomationIcon@2x.png */,
+				55A23D651AE8691200B3944C /* infomationIcon@3x.png */,
+				55A23D661AE8691200B3944C /* infomationIconPress.png */,
+				55A23D671AE8691200B3944C /* infomationIconPress@2x.png */,
+				55A23D681AE8691200B3944C /* infomationIconPress@3x.png */,
+			);
+			path = MainVIew;
+			sourceTree = "<group>";
+		};
+		55FCE3221AE52AA400D27574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				550583961D2213C300D28191 /* libz.dylib */,
+				550583941D2213B700D28191 /* libsqlite3.dylib */,
+				1F0D106B1B54EB1500BF251B /* libc++.dylib */,
+				AEAA16061B42769C0068D5D0 /* ExternalAccessory.framework */,
+				AEAA15E11B4222100068D5D0 /* SystemConfiguration.framework */,
+				55FCE3201AE52A4000D27574 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55FF5FDE1DC8A0AB003A911C /* UtilityView */ = {
+			isa = PBXGroup;
+			children = (
+				55FF5FDF1DC8A115003A911C /* BRUtilityViewController.h */,
+				55FF5FE01DC8A115003A911C /* BRUtilityViewController.m */,
+			);
+			name = UtilityView;
+			sourceTree = "<group>";
+		};
+		ED87CA691B9412750075ECCB /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				ED87CA6A1B9412750075ECCB /* PingModule.h */,
+				ED87CA6B1B9412750075ECCB /* PingModule.m */,
+				ED87CA6C1B9412750075ECCB /* PingOperation.h */,
+				ED87CA6D1B9412750075ECCB /* PingOperation.m */,
+			);
+			name = Ping;
+			path = ImagePrintVIew/SearchDeviceByWiFiView/Ping;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55FCE2B11AE4975E00D27574 /* SDK_Sample_Ver2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FCE2D51AE4975E00D27574 /* Build configuration list for PBXNativeTarget "SDK_Sample_Ver2" */;
+			buildPhases = (
+				55FCE2AE1AE4975E00D27574 /* Sources */,
+				55FCE2AF1AE4975E00D27574 /* Frameworks */,
+				55FCE2B01AE4975E00D27574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDK_Sample_Ver2;
+			productName = SDK_Sample_Ver2;
+			productReference = 55FCE2B21AE4975E00D27574 /* SDK_Sample_Ver2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55FCE2CA1AE4975E00D27574 /* SDK_Sample_Ver2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FCE2D81AE4975E00D27574 /* Build configuration list for PBXNativeTarget "SDK_Sample_Ver2Tests" */;
+			buildPhases = (
+				55FCE2C71AE4975E00D27574 /* Sources */,
+				55FCE2C81AE4975E00D27574 /* Frameworks */,
+				55FCE2C91AE4975E00D27574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55FCE2CD1AE4975E00D27574 /* PBXTargetDependency */,
+			);
+			name = SDK_Sample_Ver2Tests;
+			productName = SDK_Sample_Ver2Tests;
+			productReference = 55FCE2CB1AE4975E00D27574 /* SDK_Sample_Ver2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED0E0EFC1CE1F780001DBB2A /* SDK_Sample_Ver2 (WLAN-Only) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0E0F4D1CE1F780001DBB2A /* Build configuration list for PBXNativeTarget "SDK_Sample_Ver2 (WLAN-Only)" */;
+			buildPhases = (
+				ED0E0EFD1CE1F780001DBB2A /* Sources */,
+				ED0E0F151CE1F780001DBB2A /* Frameworks */,
+				ED0E0F1B1CE1F780001DBB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDK_Sample_Ver2 (WLAN-Only)";
+			productName = SDK_Sample_Ver2;
+			productReference = ED0E0F501CE1F780001DBB2A /* SDK_Sample_Ver2 (WLAN-Only).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55FCE2AA1AE4975E00D27574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kusumoto Naoki";
+				TargetAttributes = {
+					55FCE2B11AE4975E00D27574 = {
+						CreatedOnToolsVersion = 6.2;
+						ProvisioningStyle = Automatic;
+					};
+					55FCE2CA1AE4975E00D27574 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 55FCE2B11AE4975E00D27574;
+					};
+				};
+			};
+			buildConfigurationList = 55FCE2AD1AE4975E00D27574 /* Build configuration list for PBXProject "SDK_Sample_Ver2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55FCE2A91AE4975E00D27574;
+			productRefGroup = 55FCE2B31AE4975E00D27574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55FCE2B11AE4975E00D27574 /* SDK_Sample_Ver2 */,
+				ED0E0EFC1CE1F780001DBB2A /* SDK_Sample_Ver2 (WLAN-Only) */,
+				55FCE2CA1AE4975E00D27574 /* SDK_Sample_Ver2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55FCE2B01AE4975E00D27574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5539AFF51B30001A00CE9D51 /* backLeft@2x.png in Resources */,
+				55FCE31A1AE5239900D27574 /* clipboardPrintIcon@3x.png in Resources */,
+				55A23D6D1AE8691200B3944C /* infomationIconPress@2x.png in Resources */,
+				55A23D821AE86BCA00B3944C /* PrintGeneral@2x.png in Resources */,
+				55A23D611AE868E900B3944C /* BlocklistpdfPress@2x.png in Resources */,
+				55AD4FFA1AE62F8E0093FC18 /* albumPrintIconPress@2x.png in Resources */,
+				55A23D851AE86BCA00B3944C /* PrintGeneralPress@2x.png in Resources */,
+				55A23D6C1AE8691200B3944C /* infomationIconPress.png in Resources */,
+				5539AFF61B30001A00CE9D51 /* backLeft@3x.png in Resources */,
+				55A23D5E1AE868E900B3944C /* Blocklistpdf@2x.png in Resources */,
+				555E29E41B96962F001C29D6 /* BRSendDataViewController.storyboard in Resources */,
+				55A23D811AE86BCA00B3944C /* PrintGeneral.png in Resources */,
+				55A23D841AE86BCA00B3944C /* PrintGeneralPress.png in Resources */,
+				55A23D5D1AE868E900B3944C /* BlocklistPdf.png in Resources */,
+				55AD4FFB1AE62F8E0093FC18 /* albumPrintIconPress@3x.png in Resources */,
+				55AD4FFF1AE62FA30093FC18 /* clipboardPrintIconPress.png in Resources */,
+				55AD50011AE62FA30093FC18 /* clipboardPrintIconPress@3x.png in Resources */,
+				55FCE3151AE5239900D27574 /* albumPrintIcon.png in Resources */,
+				55A23D861AE86BCA00B3944C /* PrintGeneralPress@3x.png in Resources */,
+				55A23D761AE86B8700B3944C /* Blocklistimg@2x.png in Resources */,
+				55A23D7A1AE86B8700B3944C /* BlocklistImgPress@3x.png in Resources */,
+				1F0BAE4A1CEB1B7300901519 /* Icon-57@1x.png in Resources */,
+				55AD4FF91AE62F8E0093FC18 /* albumPrintIconPress.png in Resources */,
+				55A23D6B1AE8691200B3944C /* infomationIcon@3x.png in Resources */,
+				55A8BB8E1B3C04A600623FA6 /* Icon-60@2x.png in Resources */,
+				55A8BB961B3C06A600623FA6 /* Icon-60@3x.png in Resources */,
+				5507C2D41B2EFA36003E6C41 /* BRImagePrintViewController.storyboard in Resources */,
+				55FCE3171AE5239900D27574 /* albumPrintIcon@3x.png in Resources */,
+				55FCE2F61AE49D6700D27574 /* Images.xcassets in Resources */,
+				55FCE3051AE5200300D27574 /* BRMainTableViewCell.xib in Resources */,
+				55FCE2F81AE49D6700D27574 /* LaunchScreen.xib in Resources */,
+				55A23D621AE868E900B3944C /* BlocklistPdfPress@3x.png in Resources */,
+				55FF5FDD1DC89821003A911C /* BRUtilityViewController.storyboard in Resources */,
+				55FCE3191AE5239900D27574 /* clipboardPrintIcon@2x.png in Resources */,
+				55A23D771AE86B8700B3944C /* BlocklistImg@3x.png in Resources */,
+				55FCE3161AE5239900D27574 /* albumPrintIcon@2x.png in Resources */,
+				AEAA15FA1B4257770068D5D0 /* PrinterList.plist in Resources */,
+				55A23D6A1AE8691200B3944C /* infomationIcon@2x.png in Resources */,
+				5539AFF41B30001A00CE9D51 /* backLeft.png in Resources */,
+				55A23D791AE86B8700B3944C /* BlocklistimgPress@2x.png in Resources */,
+				55A23D691AE8691200B3944C /* infomationIcon.png in Resources */,
+				55A23D751AE86B8700B3944C /* BlocklistImg.png in Resources */,
+				55A23D831AE86BCA00B3944C /* PrintGeneral@3x.png in Resources */,
+				55A23D6E1AE8691200B3944C /* infomationIconPress@3x.png in Resources */,
+				55FCE3181AE5239900D27574 /* clipboardPrintIcon.png in Resources */,
+				55AD50001AE62FA30093FC18 /* clipboardPrintIconPress@2x.png in Resources */,
+				55A8BB831B3BC43000623FA6 /* PrintSettings.plist in Resources */,
+				1F0BAE461CEAE47800901519 /* Icon-57@2x.png in Resources */,
+				55A23D781AE86B8700B3944C /* BlocklistimgPress.png in Resources */,
+				55A23D601AE868E900B3944C /* BlocklistPdfPress.png in Resources */,
+				55A23D5F1AE868E900B3944C /* BlocklistPdf@3x.png in Resources */,
+				55FCE2F71AE49D6700D27574 /* BRMainViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCE2C91AE4975E00D27574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0E0F1B1CE1F780001DBB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0E0F1C1CE1F780001DBB2A /* backLeft@2x.png in Resources */,
+				ED0E0F1D1CE1F780001DBB2A /* clipboardPrintIcon@3x.png in Resources */,
+				ED0E0F1E1CE1F780001DBB2A /* infomationIconPress@2x.png in Resources */,
+				ED0E0F1F1CE1F780001DBB2A /* PrintGeneral@2x.png in Resources */,
+				ED0E0F201CE1F780001DBB2A /* BlocklistpdfPress@2x.png in Resources */,
+				ED0E0F211CE1F780001DBB2A /* albumPrintIconPress@2x.png in Resources */,
+				ED0E0F221CE1F780001DBB2A /* PrintGeneralPress@2x.png in Resources */,
+				ED0E0F231CE1F780001DBB2A /* infomationIconPress.png in Resources */,
+				ED0E0F241CE1F780001DBB2A /* backLeft@3x.png in Resources */,
+				ED0E0F251CE1F780001DBB2A /* Blocklistpdf@2x.png in Resources */,
+				ED0E0F261CE1F780001DBB2A /* BRSendDataViewController.storyboard in Resources */,
+				ED0E0F271CE1F780001DBB2A /* PrintGeneral.png in Resources */,
+				ED0E0F281CE1F780001DBB2A /* PrintGeneralPress.png in Resources */,
+				ED0E0F291CE1F780001DBB2A /* BlocklistPdf.png in Resources */,
+				ED0E0F2A1CE1F780001DBB2A /* albumPrintIconPress@3x.png in Resources */,
+				ED0E0F2B1CE1F780001DBB2A /* clipboardPrintIconPress.png in Resources */,
+				ED0E0F2C1CE1F780001DBB2A /* clipboardPrintIconPress@3x.png in Resources */,
+				ED0E0F2D1CE1F780001DBB2A /* albumPrintIcon.png in Resources */,
+				ED0E0F2E1CE1F780001DBB2A /* PrintGeneralPress@3x.png in Resources */,
+				ED0E0F2F1CE1F780001DBB2A /* Blocklistimg@2x.png in Resources */,
+				ED0E0F301CE1F780001DBB2A /* BlocklistImgPress@3x.png in Resources */,
+				ED0E0F311CE1F780001DBB2A /* albumPrintIconPress.png in Resources */,
+				ED0E0F321CE1F780001DBB2A /* infomationIcon@3x.png in Resources */,
+				ED0E0F331CE1F780001DBB2A /* Icon-60@2x.png in Resources */,
+				ED0E0F341CE1F780001DBB2A /* Icon-60@3x.png in Resources */,
+				ED0E0F351CE1F780001DBB2A /* BRImagePrintViewController.storyboard in Resources */,
+				ED0E0F361CE1F780001DBB2A /* albumPrintIcon@3x.png in Resources */,
+				ED0E0F371CE1F780001DBB2A /* Images.xcassets in Resources */,
+				ED0E0F381CE1F780001DBB2A /* BRMainTableViewCell.xib in Resources */,
+				ED0E0F391CE1F780001DBB2A /* LaunchScreen.xib in Resources */,
+				ED0E0F3A1CE1F780001DBB2A /* BlocklistPdfPress@3x.png in Resources */,
+				ED0E0F3B1CE1F780001DBB2A /* clipboardPrintIcon@2x.png in Resources */,
+				ED0E0F3C1CE1F780001DBB2A /* BlocklistImg@3x.png in Resources */,
+				ED0E0F3D1CE1F780001DBB2A /* albumPrintIcon@2x.png in Resources */,
+				ED0E0F3E1CE1F780001DBB2A /* PrinterList.plist in Resources */,
+				ED0E0F3F1CE1F780001DBB2A /* infomationIcon@2x.png in Resources */,
+				ED0E0F401CE1F780001DBB2A /* backLeft.png in Resources */,
+				ED0E0F411CE1F780001DBB2A /* BlocklistimgPress@2x.png in Resources */,
+				ED0E0F421CE1F780001DBB2A /* infomationIcon.png in Resources */,
+				ED0E0F431CE1F780001DBB2A /* BlocklistImg.png in Resources */,
+				ED0E0F441CE1F780001DBB2A /* PrintGeneral@3x.png in Resources */,
+				ED0E0F451CE1F780001DBB2A /* infomationIconPress@3x.png in Resources */,
+				ED0E0F461CE1F780001DBB2A /* clipboardPrintIcon.png in Resources */,
+				ED0E0F471CE1F780001DBB2A /* clipboardPrintIconPress@2x.png in Resources */,
+				ED0E0F481CE1F780001DBB2A /* PrintSettings.plist in Resources */,
+				ED0E0F491CE1F780001DBB2A /* BlocklistimgPress.png in Resources */,
+				ED0E0F4A1CE1F780001DBB2A /* BlocklistPdfPress.png in Resources */,
+				ED0E0F4B1CE1F780001DBB2A /* BlocklistPdf@3x.png in Resources */,
+				ED0E0F4C1CE1F780001DBB2A /* BRMainViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55FCE2AE1AE4975E00D27574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F71F141B3A7D32008D7D1B /* BRSearchDeviceByMFiTableViewController.m in Sources */,
+				55FCE30B1AE5207D00D27574 /* BRMainTableViewCell.m in Sources */,
+				552B73FA1BA18A38006794BF /* BRPDFPickerViewController.m in Sources */,
+				55FCE2FA1AE49D6700D27574 /* main.m in Sources */,
+				55F71F111B3A7C6C008D7D1B /* BRSearchDeviceByWiFiTableViewController.m in Sources */,
+				5507C2D11B2EF9AD003E6C41 /* BRImagePrintViewController.m in Sources */,
+				555E29E81B96FD72001C29D6 /* BRSendDataViewController.m in Sources */,
+				55E259F71B397E8F006277F1 /* BRImagePrintTablesViewItemCreator.m in Sources */,
+				55B12A851B8353A200EDF8F5 /* BRBluetoothPrintOperation.m in Sources */,
+				55242B401B8EA97200E2615C /* BRPrintResultViewController.m in Sources */,
+				55242BA71B981F6F00A040B0 /* BRPrintSettingDetailTableVIewController.m in Sources */,
+				55FCE30C1AE5207D00D27574 /* BRMainViewController.m in Sources */,
+				55FCE2F41AE49D6700D27574 /* AppDelegate.m in Sources */,
+				EDB5C7451B8DA7A000E49777 /* BRStaticIPViewController.m in Sources */,
+				ED87CA6E1B9412750075ECCB /* PingModule.m in Sources */,
+				ED786C1E1B8ED8FA001EA684 /* BRSelectWayOfSearchByWiFiTableViewController.m in Sources */,
+				55FCE3251AE52E0500D27574 /* BRMainTableViewItemCreator.m in Sources */,
+				55B12A821B83535C00EDF8F5 /* BRWLANPrintOperation.m in Sources */,
+				55FCE31D1AE527D500D27574 /* BRMainTableViewItem.m in Sources */,
+				55FF5FE11DC8A115003A911C /* BRUtilityViewController.m in Sources */,
+				ED87CA6F1B9412750075ECCB /* PingOperation.m in Sources */,
+				55F71F171B3A7DED008D7D1B /* BRPrintSettingsTableViewController.m in Sources */,
+				55E259F41B3972CC006277F1 /* BRImagePrintTablesViewItem.m in Sources */,
+				55242BAA1B9825CC00A040B0 /* BRSendDataTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FCE2C71AE4975E00D27574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557064FD1B6F84B40080FC37 /* SDK_Sample_Ver2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0E0EFD1CE1F780001DBB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0E0EFF1CE1F780001DBB2A /* BRMainTableViewCell.m in Sources */,
+				ED0E0F001CE1F780001DBB2A /* BRPDFPickerViewController.m in Sources */,
+				ED0E0F011CE1F780001DBB2A /* main.m in Sources */,
+				ED0E0F021CE1F780001DBB2A /* BRSearchDeviceByWiFiTableViewController.m in Sources */,
+				ED0E0F031CE1F780001DBB2A /* BRImagePrintViewController.m in Sources */,
+				ED0E0F041CE1F780001DBB2A /* BRSendDataViewController.m in Sources */,
+				ED0E0F051CE1F780001DBB2A /* BRImagePrintTablesViewItemCreator.m in Sources */,
+				ED0E0F071CE1F780001DBB2A /* BRPrintResultViewController.m in Sources */,
+				ED0E0F081CE1F780001DBB2A /* BRPrintSettingDetailTableVIewController.m in Sources */,
+				ED0E0F091CE1F780001DBB2A /* BRMainViewController.m in Sources */,
+				ED0E0F0A1CE1F780001DBB2A /* AppDelegate.m in Sources */,
+				ED0E0F0B1CE1F780001DBB2A /* BRStaticIPViewController.m in Sources */,
+				ED0E0F0C1CE1F780001DBB2A /* PingModule.m in Sources */,
+				ED0E0F0D1CE1F780001DBB2A /* BRSelectWayOfSearchByWiFiTableViewController.m in Sources */,
+				ED0E0F0E1CE1F780001DBB2A /* BRMainTableViewItemCreator.m in Sources */,
+				ED0E0F0F1CE1F780001DBB2A /* BRWLANPrintOperation.m in Sources */,
+				ED0E0F101CE1F780001DBB2A /* BRMainTableViewItem.m in Sources */,
+				ED0E0F111CE1F780001DBB2A /* PingOperation.m in Sources */,
+				ED0E0F121CE1F780001DBB2A /* BRPrintSettingsTableViewController.m in Sources */,
+				ED0E0F131CE1F780001DBB2A /* BRImagePrintTablesViewItem.m in Sources */,
+				ED0E0F141CE1F780001DBB2A /* BRSendDataTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55FCE2CD1AE4975E00D27574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55FCE2B11AE4975E00D27574 /* SDK_Sample_Ver2 */;
+			targetProxy = 55FCE2CC1AE4975E00D27574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55FCE2D31AE4975E00D27574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				KEEP_PRIVATE_EXTERNS = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55FCE2D41AE4975E00D27574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				KEEP_PRIVATE_EXTERNS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55FCE2D61AE4975E00D27574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5HCL85FLGW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/libs/BRPtouchPrinterKit.framework/**";
+				INFOPLIST_FILE = "SDK_Sample_Ver2/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		55FCE2D71AE4975E00D27574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5HCL85FLGW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/libs/BRPtouchPrinterKit.framework/**";
+				INFOPLIST_FILE = "SDK_Sample_Ver2/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		55FCE2D91AE4975E00D27574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SDK_Sample_Ver2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDK_Sample_Ver2.app/SDK_Sample_Ver2";
+			};
+			name = Debug;
+		};
+		55FCE2DA1AE4975E00D27574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SDK_Sample_Ver2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDK_Sample_Ver2.app/SDK_Sample_Ver2";
+			};
+			name = Release;
+		};
+		ED0E0F4E1CE1F780001DBB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					WLAN_ONLY,
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/libs/BRPtouchPrinterKitW.framework/**";
+				INFOPLIST_FILE = "SDK_Sample_Ver2/Supporting Files/SDK_Sample_Ver2 (WLAN-Only)-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED0E0F4F1CE1F780001DBB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = WLAN_ONLY;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/libs/BRPtouchPrinterKitW.framework/**";
+				INFOPLIST_FILE = "SDK_Sample_Ver2/Supporting Files/SDK_Sample_Ver2 (WLAN-Only)-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55FCE2AD1AE4975E00D27574 /* Build configuration list for PBXProject "SDK_Sample_Ver2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FCE2D31AE4975E00D27574 /* Debug */,
+				55FCE2D41AE4975E00D27574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FCE2D51AE4975E00D27574 /* Build configuration list for PBXNativeTarget "SDK_Sample_Ver2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FCE2D61AE4975E00D27574 /* Debug */,
+				55FCE2D71AE4975E00D27574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FCE2D81AE4975E00D27574 /* Build configuration list for PBXNativeTarget "SDK_Sample_Ver2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FCE2D91AE4975E00D27574 /* Debug */,
+				55FCE2DA1AE4975E00D27574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0E0F4D1CE1F780001DBB2A /* Build configuration list for PBXNativeTarget "SDK_Sample_Ver2 (WLAN-Only)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0E0F4E1CE1F780001DBB2A /* Debug */,
+				ED0E0F4F1CE1F780001DBB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55FCE2AA1AE4975E00D27574 /* Project object */;
+}
